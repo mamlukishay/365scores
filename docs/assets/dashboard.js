@@ -2,7 +2,7 @@
    Fetches data/{slug}.json (a map of groupId -> metrics) and renders one group
    at a time via mount(). Supports group switching + on-demand live refresh. */
 import { analyze } from './analyze.mjs';
-import { fetchGroupSnapshot } from './scores-api.mjs';
+import { fetchGroupSnapshot, fetchUserGroups } from './scores-api.mjs';
 
 const $ = (s, r = document) => r.querySelector(s);
 const el = (t, c, h) => { const e = document.createElement(t); if (c) e.className = c; if (h != null) e.innerHTML = h; return e; };
@@ -459,22 +459,65 @@ function slugFromPath() {
 function setStatus(html) { const s = $("#refreshStatus"); if (s) s.innerHTML = html; }
 const hhmm = (d) => `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
 
+// Keep in sync with build.mjs: never crawl a giant public pool (e.g. global group, ~248k).
+const MAX_MEMBERS = 2000;
+
+// Build the whole {groupId: metrics} map live in the browser from a token —
+// mirrors build.mjs, so a page is usable even before the cron has ever run.
+async function liveBuildMap(token) {
+  const groups = await fetchUserGroups(token);
+  const usable = groups.filter((g) => (g.membersCount ?? 0) <= MAX_MEMBERS);
+  const map = {};
+  await Promise.all(usable.map(async (g) => {
+    try { map[String(g.groupID)] = analyze(await fetchGroupSnapshot(token, g.groupID, g)); } catch {}
+  }));
+  return map;
+}
+
 async function boot() {
   const slug = slugFromPath();
   const gsel = $("#groupSelect");
   const btn = $("#refreshBtn");
   let map = null, currentGid = null;
 
-  // Live on-demand refresh of the selected group. Wired up-front so the button
-  // always gives feedback — even before/without data.
+  const getToken = () => { try { return localStorage.getItem("scores_token"); } catch { return null; } };
+
+  // Populate the group switcher and render the selected group. Returns false if empty.
+  function renderMap(m) {
+    map = m;
+    const ids = Object.keys(map || {});
+    if (!ids.length) return false;
+    const w = document.querySelector(".wrap"); if (w) w.style.display = "";
+    const f = document.querySelector("footer"); if (f) f.style.display = "";
+    gsel.innerHTML = "";
+    ids.forEach((gid) => { const o = el("option", null, (map[gid]?.group?.name) || `Group ${gid}`); o.value = gid; gsel.appendChild(o); });
+    const saved = (() => { try { return localStorage.getItem(GROUP_KEY(slug)); } catch { return null; } })();
+    currentGid = ids.includes(saved) ? saved : ids[0];
+    gsel.value = currentGid;
+    mount(map[currentGid]);
+    return true;
+  }
+
+  gsel.addEventListener("change", () => {
+    currentGid = gsel.value;
+    try { localStorage.setItem(GROUP_KEY(slug), currentGid); } catch {}
+    setStatus("");
+    mount(map[currentGid]);
+  });
+
+  // "Update now": refresh the selected group, or — if the page has no data yet —
+  // discover the token's groups and build the whole dashboard live in the browser.
   async function onRefresh() {
-    const token = (() => { try { return localStorage.getItem("scores_token"); } catch { return null; } })();
+    const token = getToken();
     if (!token) { setStatus(`No token yet — <a href="./admin.html">add it on the admin page</a>, then come back.`); return; }
-    if (!currentGid) { setStatus(`Nothing to update yet.`); return; }
     btn.disabled = true;
-    setStatus("Updating…");
+    setStatus(currentGid ? "Updating…" : "Loading your data live…");
     try {
-      mount(analyze(await fetchGroupSnapshot(token, currentGid)));
+      if (currentGid) {
+        mount(analyze(await fetchGroupSnapshot(token, currentGid)));
+      } else if (!renderMap(await liveBuildMap(token))) {
+        setStatus("No groups found for your token."); return;
+      }
       setStatus(`Live · updated ${hhmm(new Date())}`);
     } catch (e) {
       const expired = /401|403|expired|invalid/i.test(String(e && e.message));
@@ -487,39 +530,19 @@ async function boot() {
 
   if (!slug) { emptyState("Pick a dashboard", "Add a name to the URL, e.g. /your-name"); return; }
 
+  // 1) Prefer the server-built snapshot.
   try {
     const res = await fetch(new URL(`data/${encodeURIComponent(slug)}.json`, SITE_ROOT));
-    if (!res.ok) throw new Error(String(res.status));
-    map = await res.json();
-  } catch {
+    if (res.ok && renderMap(await res.json())) return;
+  } catch { /* fall through to the live path */ }
+
+  // 2) No server data yet — let the user load it live if they have a token saved.
+  if (getToken()) {
+    emptyState(`No saved data for “${slug}” yet`, "You have a token saved — press “Update now” to load your data live.");
+  } else {
     emptyState(`No data yet for “${slug}”`,
-      "This page fills in automatically once the owner has added this user’s token and the next refresh has run (within ~15 min).");
-    return;
+      "This fills in automatically once the owner adds this user’s token and the next refresh runs (~15 min). Or add your own token on the admin page and press “Update now”.");
   }
-  const groupIds = Object.keys(map || {});
-  if (!groupIds.length) {
-    emptyState(`No data yet for “${slug}”`, "No groups have been collected for this user yet.");
-    return;
-  }
-
-  // group switcher
-  gsel.innerHTML = "";
-  groupIds.forEach((gid) => {
-    const o = el("option", null, (map[gid]?.group?.name) || `Group ${gid}`);
-    o.value = gid;
-    gsel.appendChild(o);
-  });
-  const savedGid = (() => { try { return localStorage.getItem(GROUP_KEY(slug)); } catch { return null; } })();
-  currentGid = groupIds.includes(savedGid) ? savedGid : groupIds[0];
-  gsel.value = currentGid;
-  gsel.addEventListener("change", () => {
-    currentGid = gsel.value;
-    try { localStorage.setItem(GROUP_KEY(slug), currentGid); } catch {}
-    setStatus("");
-    mount(map[currentGid]);
-  });
-
-  mount(map[currentGid]);
 }
 
 boot();
