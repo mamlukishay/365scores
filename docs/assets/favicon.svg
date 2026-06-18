@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Soccer ball: white sphere, central black pentagon, five radiating spokes
+       to five outer pentagons (rotated copies of one "petal"). -->
+  <circle cx="16" cy="16" r="15" fill="#ffffff" stroke="#0b0e1f" stroke-width="1.5"/>
+  <path d="M16,11.5 L20.28,14.61 L18.64,19.64 L13.36,19.64 L11.72,14.61 Z" fill="#0b0e1f"/>
+  <defs>
+    <g id="petal">
+      <line x1="16" y1="11.5" x2="16" y2="7.93" stroke="#0b0e1f" stroke-width="1.1"/>
+      <path d="M16,2.5 L18.85,4.57 L17.76,7.93 L14.24,7.93 L13.15,4.57 Z" fill="#0b0e1f"/>
+    </g>
+  </defs>
+  <use href="#petal"/>
+  <use href="#petal" transform="rotate(72 16 16)"/>
+  <use href="#petal" transform="rotate(144 16 16)"/>
+  <use href="#petal" transform="rotate(216 16 16)"/>
+  <use href="#petal" transform="rotate(288 16 16)"/>
+</svg>
