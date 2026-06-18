@@ -28,7 +28,7 @@ header{display:flex;align-items:center;justify-content:space-between;gap:20px;
 .viewer label{font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
 .viewer select{appearance:none;background:linear-gradient(135deg,var(--accent),var(--accent2));
   color:#fff;border:0;border-radius:999px;padding:9px 38px 9px 16px;font:600 14px Inter,sans-serif;
-  cursor:pointer;background-position:right 14px center}
+  cursor:pointer}
 .viewer .chev{margin-left:-30px;pointer-events:none;color:#fff;opacity:.85}
 
 /* Layout */
