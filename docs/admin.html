@@ -225,10 +225,10 @@ $("genBtn").addEventListener("click", () => {
     URL.revokeObjectURL(a.href);
   };
 
-  // GitHub pre-filled new-file URL. Folder `config` is duplicated in BOTH the
-  // path and filename= — the known workaround so GitHub keeps the folder.
+  // GitHub pre-filled new-file URL. The folder goes in the PATH (`/new/<branch>/config`)
+  // and `filename` is just the file name — putting the folder in both nests it (config/config/…).
   const ghUrl = `https://github.com/${REPO}/new/${BRANCH}/config` +
-    `?filename=config/${encodeURIComponent(slug)}.json` +
+    `?filename=${encodeURIComponent(slug)}.json` +
     `&value=${encodeURIComponent(jsonText)}`;
   $("ghLink").setAttribute("href", ghUrl);
 
