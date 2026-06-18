@@ -414,7 +414,14 @@ function mount(metrics) {
 
   // header
   $("#groupName").textContent = M.group?.name || "Predictions Cup";
-  $("#meta").textContent = `${M.group?.membersCount ?? names.length} players · ${M.finishedCount}/${M.totalGames} matches played · ${(M.pulledAt || "").replace("T", " ").slice(0, 16)}`;
+  const pulledAtLocal = (() => {
+    if (!M.pulledAt) return "";
+    const d = new Date(M.pulledAt);
+    if (isNaN(d)) return "";
+    const pad = (n) => String(n).padStart(2, "0");
+    return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  })();
+  $("#meta").textContent = `${M.group?.membersCount ?? names.length} players · ${M.finishedCount}/${M.totalGames} matches played · ${pulledAtLocal}`;
 
   // "Viewing as" — rebuild fresh each mount (replace node to drop old listeners)
   const oldSel = $("#playerSelect");
