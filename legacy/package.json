@@ -1,0 +1,15 @@
+{
+  "name": "scores365-predictions",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node capture.mjs",
+    "pull": "node pull.mjs",
+    "graphs": "node infographics.mjs",
+    "deploy": "node deploy.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.61.0"
+  }
+}

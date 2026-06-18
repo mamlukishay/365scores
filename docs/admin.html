@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>365Scores Predictions Cup — Admin</title>
+<link rel="stylesheet" href="assets/dashboard.css">
+<style>
+  /* Page-local styles (dashboard.css carries the shared look). */
+  body { max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+  section { margin: 1.5rem 0; padding: 1rem 1.25rem; border: 1px solid #ccc; border-radius: 8px; }
+  h2 { margin-top: 0; }
+  label { display: block; margin: .4rem 0 .2rem; font-weight: 600; }
+  input[type=text], textarea { width: 100%; box-sizing: border-box; padding: .5rem; font: inherit; }
+  textarea { min-height: 4rem; font-family: monospace; }
+  button { padding: .5rem .9rem; font: inherit; cursor: pointer; margin: .3rem .3rem .3rem 0; }
+  .bookmarklet { display: inline-block; padding: .4rem .8rem; border: 2px dashed #555; border-radius: 6px; text-decoration: none; font-weight: 600; background: #f4f4f4; color: #111; }
+  .status { margin: .5rem 0; min-height: 1.2em; }
+  .status.err { color: #b00020; }
+  .status.ok  { color: #1b7a1b; }
+  .hidden { display: none; }
+  ul.groups { list-style: none; padding: 0; max-height: 16rem; overflow: auto; border: 1px solid #ddd; border-radius: 6px; }
+  ul.groups li { padding: .35rem .6rem; border-bottom: 1px solid #eee; }
+  ul.groups li:last-child { border-bottom: 0; }
+  ul.groups label { font-weight: 400; display: flex; gap: .5rem; align-items: baseline; margin: 0; }
+  .muted { color: #666; font-size: .9em; }
+  pre.json { background: #1e1e1e; color: #e6e6e6; padding: 1rem; border-radius: 6px; overflow: auto; white-space: pre-wrap; word-break: break-word; }
+  .reminder { border: 2px solid #d08a00; background: #fff7e6; padding: 1rem 1.25rem; border-radius: 8px; }
+  code { background: #eee; padding: .1em .3em; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<h1>365Scores Predictions Cup — Admin</h1>
+<p class="muted">Generate a <code>config/{slug}.json</code> for the Predictions Cup. Nothing is sent to a server — this page only talks to the 365scores API from your browser and builds a file for you to commit.</p>
+
+<!-- Step 1 — Get your token -->
+<section>
+  <h2>Step 1 — Get your token</h2>
+  <p>Drag this link to your bookmarks bar, then open a <strong>365scores.com</strong> tab and click it:</p>
+  <!-- Bookmarklet: scans local/sessionStorage for a JWT, copies it to the clipboard.
+       Self-contained IIFE, URL-encoded so it survives as an href on any origin. -->
+  <p><a class="bookmarklet" id="bm" href="#">Grab 365Scores token</a></p>
+  <details>
+    <summary>Manual fallback (DevTools)</summary>
+    <ol class="muted">
+      <li>Open DevTools (F12) → <strong>Network</strong> tab.</li>
+      <li>Reload, then click any request to <code>wcg-il.365scores.com</code>.</li>
+      <li>Under <strong>Request Headers</strong>, copy the <code>authorization</code> value.</li>
+      <li>Strip the leading <code>Bearer </code> — paste the rest below.</li>
+    </ol>
+  </details>
+</section>
+
+<!-- Step 2 — Paste token -->
+<section>
+  <h2>Step 2 — Paste token</h2>
+  <label for="token">365scores token (JWT)</label>
+  <textarea id="token" spellcheck="false" autocomplete="off" placeholder="eyJ..."></textarea>
+  <button id="loadBtn" type="button">Load my groups</button>
+  <p class="status" id="loadStatus" role="status" aria-live="polite"></p>
+
+  <div id="groupsWrap" class="hidden">
+    <p class="muted">Tick the groups to track (all selected by default):</p>
+    <ul class="groups" id="groupsList"></ul>
+  </div>
+
+  <div id="manualWrap" class="hidden">
+    <label for="manualIds">Couldn't auto-load — enter group IDs manually (comma-separated)</label>
+    <input type="text" id="manualIds" placeholder="123456, 234567">
+  </div>
+</section>
+
+<!-- Step 3 — Your details -->
+<section>
+  <h2>Step 3 — Your details</h2>
+  <label for="slug">Slug (url-safe, lowercase)</label>
+  <input type="text" id="slug" placeholder="my-league" autocomplete="off">
+  <label for="displayName">Display name</label>
+  <input type="text" id="displayName" placeholder="My League" autocomplete="off">
+</section>
+
+<!-- Step 4 — Generate & commit -->
+<section>
+  <h2>Step 4 — Generate &amp; commit</h2>
+  <button id="genBtn" type="button">Generate</button>
+  <p class="status" id="genStatus" role="status" aria-live="polite"></p>
+
+  <div id="outWrap" class="hidden">
+    <pre class="json" id="jsonOut" tabindex="0"></pre>
+    <button id="copyBtn" type="button">Copy JSON</button>
+    <button id="dlBtn" type="button">Download file</button>
+    <a id="ghLink" href="#" target="_blank" rel="noopener"><button type="button">Add to repo on GitHub</button></a>
+    <p class="muted">If you don't have write access, GitHub will offer to create a fork and open a pull request — that's fine.</p>
+  </div>
+
+  <div class="reminder" style="margin-top:1.5rem">
+    <strong>Final step:</strong> privately send your token to the repo owner so they can add it to the
+    <code>USER_TOKENS</code> GitHub Actions secret — that's what lets the scheduled cron fetch on your behalf.
+    Your token is <strong>NOT</strong> committed to the repo.
+  </div>
+</section>
+
+<script type="module">
+import { fetchUserGroups } from "./assets/scores-api.mjs";
+
+// ─── CONFIG — repo owner: fill these in ────────────────────────────────────
+const REPO   = "mamlukishay/365scores";  // GitHub "owner/repo"
+const BRANCH = "main";
+// ───────────────────────────────────────────────────────────────────────────
+
+const JWT_RE   = /^eyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+$/;
+const $        = (id) => document.getElementById(id);
+const stripBearer = (s) => s.replace(/^Bearer\s+/i, "").trim();
+
+// Holds the loaded groups so Generate can read the checkbox state.
+let loadedGroups = null;
+
+// ── Step 1: build the bookmarklet href ─────────────────────────────────────
+// Runs on the 365scores origin (not here), so it must be fully self-contained
+// and can only communicate via the clipboard + alert.
+const bookmarkletSrc = `(function(){
+  var re=/^eyJ[A-Za-z0-9_-]+\\.[A-Za-z0-9_-]+\\.[A-Za-z0-9_-]+$/;
+  function scan(s){for(var i=0;i<s.length;i++){var v=s.getItem(s.key(i));if(!v)continue;v=v.replace(/^Bearer\\s+/i,'').trim();if(re.test(v))return v;}return null;}
+  var t=scan(localStorage)||scan(sessionStorage);
+  if(t){navigator.clipboard.writeText(t).then(function(){alert('365Scores token copied to clipboard! Paste it into the admin page.');},function(){window.prompt('Copy this token:',t);});}
+  else{alert('No token found in storage. Open DevTools > Network, click a request to wcg-il.365scores.com, and copy the authorization header.');}
+})();`;
+$("bm").setAttribute("href", "javascript:" + encodeURIComponent(bookmarkletSrc));
+
+// ── On load: pre-fill token if we saved one before ─────────────────────────
+{
+  const saved = localStorage.getItem("scores_token");
+  if (saved) $("token").value = saved;
+}
+
+// ── Step 2: load groups ────────────────────────────────────────────────────
+$("loadBtn").addEventListener("click", async () => {
+  const status = $("loadStatus");
+  const token = stripBearer($("token").value);
+  if (!token) { status.className = "status err"; status.textContent = "Paste a token first."; return; }
+
+  localStorage.setItem("scores_token", token);   // viewer page reuses this
+  status.className = "status"; status.textContent = "Loading your groups…";
+  $("groupsWrap").classList.add("hidden");
+  $("manualWrap").classList.add("hidden");
+
+  try {
+    const groups = await fetchUserGroups(token);
+    if (!groups.length) { status.className = "status err"; status.textContent = "No groups found for this token."; return; }
+    loadedGroups = groups;
+    renderGroups(groups);
+    $("groupsWrap").classList.remove("hidden");
+    status.className = "status ok"; status.textContent = `Loaded ${groups.length} group(s).`;
+  } catch (err) {
+    // Network / CORS / 401 → fall back to manual ID entry.
+    loadedGroups = null;
+    status.className = "status err";
+    status.textContent = "Couldn't load groups (token may be invalid or expired). " + (err && err.message ? err.message : "");
+    $("manualWrap").classList.remove("hidden");
+  }
+});
+
+function renderGroups(groups) {
+  const ul = $("groupsList");
+  ul.innerHTML = "";
+  for (const g of groups) {
+    const li = document.createElement("li");
+    const label = document.createElement("label");
+    const cb = document.createElement("input");
+    cb.type = "checkbox"; cb.checked = true; cb.value = String(g.groupID); cb.dataset.group = "1";
+    const span = document.createElement("span");
+    span.innerHTML = `<strong>${escapeHtml(g.name || "(unnamed)")}</strong> ` +
+      `<span class="muted">#${g.groupID} · ${g.membersCount ?? "?"} members</span>`;
+    label.append(cb, span);
+    li.append(label);
+    ul.append(li);
+  }
+}
+
+// ── Step 3: sanitize slug as the user types ────────────────────────────────
+$("slug").addEventListener("input", (e) => {
+  e.target.value = e.target.value.toLowerCase().replace(/[^a-z0-9-]/g, "");
+});
+
+// ── Step 4: generate config ────────────────────────────────────────────────
+$("genBtn").addEventListener("click", () => {
+  const status = $("genStatus");
+  const slug = $("slug").value.trim();
+  const displayName = $("displayName").value.trim();
+
+  // Group IDs: checked boxes, else the manual comma list.
+  let groupIds;
+  if (loadedGroups) {
+    groupIds = [...document.querySelectorAll('[data-group]:checked')].map((c) => Number(c.value));
+  } else {
+    groupIds = $("manualIds").value.split(",").map((s) => Number(s.trim())).filter((n) => Number.isFinite(n) && n > 0);
+  }
+
+  if (!slug)            { fail("Enter a slug."); return; }
+  if (!groupIds.length) { fail("Select (or enter) at least one group."); return; }
+
+  const config = { slug, displayName: displayName || slug, groupIds };
+  const jsonText = JSON.stringify(config, null, 2);
+
+  $("jsonOut").textContent = jsonText;
+  $("outWrap").classList.remove("hidden");
+  status.className = "status ok"; status.textContent = "Config ready.";
+
+  // Copy
+  $("copyBtn").onclick = () => {
+    navigator.clipboard.writeText(jsonText)
+      .then(() => { status.className = "status ok"; status.textContent = "JSON copied."; })
+      .catch(() => { status.className = "status err"; status.textContent = "Copy failed — select the JSON manually."; });
+  };
+
+  // Download
+  $("dlBtn").textContent = `Download ${slug}.json`;
+  $("dlBtn").onclick = () => {
+    const blob = new Blob([jsonText], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `${slug}.json`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  };
+
+  // GitHub pre-filled new-file URL. Folder `config` is duplicated in BOTH the
+  // path and filename= — the known workaround so GitHub keeps the folder.
+  const ghUrl = `https://github.com/${REPO}/new/${BRANCH}/config` +
+    `?filename=config/${encodeURIComponent(slug)}.json` +
+    `&value=${encodeURIComponent(jsonText)}`;
+  $("ghLink").setAttribute("href", ghUrl);
+
+  function fail(msg) { status.className = "status err"; status.textContent = msg; $("outWrap").classList.add("hidden"); }
+});
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+</script>
+</body>
+</html>

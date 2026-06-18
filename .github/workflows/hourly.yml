@@ -1,0 +1,61 @@
+# Refreshes the per-user prediction data and commits the resulting JSON back to
+# `main` so GitHub Pages serves fresh numbers. The site itself is plain static
+# files under `docs/`; this workflow only regenerates `docs/data/*.json`.
+#
+# NOTE ON SCHEDULING:
+#  - GitHub may delay (or briefly skip) scheduled runs when the hosted runners
+#    are under load, so treat the 15-minute cadence as "best effort", not exact.
+#  - Scheduled workflows are AUTO-DISABLED after 60 days of NO repository
+#    activity. Because this job commits refreshed data on most runs, that
+#    activity keeps the schedule alive. (Use the manual trigger if it ever
+#    goes dormant.)
+name: hourly
+
+on:
+  # Every 15 minutes. Cron runs in UTC.
+  schedule:
+    - cron: "*/15 * * * *"
+  # Allow refreshing on demand from the Actions tab.
+  workflow_dispatch:
+  # Intentionally NO `push` trigger: this job pushes commits itself, which would
+  # otherwise create an infinite loop of runs.
+
+# Let the job push commits to `main`.
+permissions:
+  contents: write
+
+# Never let two refresh runs overlap (they would race on the same commit).
+concurrency:
+  group: refresh-data
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Get the repo (config/*.json and build.mjs live here).
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. Provide Node 24 (build.mjs targets it and uses only built-ins).
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      # 3. Fetch fresh data and write docs/data/{slug}.json.
+      #    No `npm install`: build.mjs has zero dependencies.
+      #    Tokens come ONLY from the USER_TOKENS secret (a JSON string).
+      - name: Build data
+        env:
+          USER_TOKENS: ${{ secrets.USER_TOKENS }}
+        run: node build.mjs
+
+      # 4. Commit & push any changed data. The `git diff --staged --quiet` guard
+      #    makes the step a no-op (instead of a failure) when nothing changed.
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          git diff --staged --quiet || (git commit -m "data: refresh $(date -u +%FT%TZ)" && git push)

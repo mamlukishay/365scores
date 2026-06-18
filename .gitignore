@@ -1,7 +1,10 @@
 node_modules/
 .browser-profile/
 app-settings.json
-data/
 reports/
-
 .netlify/
+.DS_Store
+
+# Local dev secrets (never commit). In CI these come from the USER_TOKENS Actions secret.
+secrets/*
+!secrets/tokens.example.json

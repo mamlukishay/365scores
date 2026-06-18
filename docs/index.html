@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="he">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Predictions Cup — Dashboard</title>
+<!-- spa-github-pages: decode the ?/-encoded path back into a real path BEFORE
+     the app runs, so location.pathname reflects /<repo>/<slug>. Companion to
+     404.html (https://github.com/rafgraph/spa-github-pages). -->
+<script>
+  (function (l) {
+    if (l.search[1] === '/') {
+      var decoded = l.search.slice(1).split('&').map(function (s) {
+        return s.replace(/~and~/g, '&');
+      }).join('?');
+      window.history.replaceState(null, null,
+        l.pathname.slice(0, -1) + decoded + l.hash);
+    }
+  }(window.location));
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/dashboard.css">
+<style>
+  /* New header controls — reuse the .viewer pill look. */
+  .controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .controls .viewer{flex:0 0 auto}
+  #refreshBtn{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:0;
+    border-radius:999px;padding:9px 18px;font:600 14px Inter,sans-serif;cursor:pointer;box-shadow:var(--shadow)}
+  #refreshBtn:disabled{opacity:.55;cursor:default}
+  #refreshStatus{color:var(--muted);font-size:12px;min-width:80px}
+  #refreshStatus a{color:var(--accent2)}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><h1 id="groupName"></h1><div class="meta" id="meta"></div></div>
+  <div class="controls">
+    <div class="viewer">
+      <label for="groupSelect">Group</label>
+      <select id="groupSelect"></select><span class="chev">▾</span>
+    </div>
+    <div class="viewer">
+      <label for="playerSelect">Viewing&nbsp;as</label>
+      <select id="playerSelect"></select><span class="chev">▾</span>
+    </div>
+    <button id="refreshBtn">Update now</button>
+    <span id="refreshStatus"></span>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="section-title">🏆 Podium</div>
+  <div class="card col12"><div class="podium" id="podium"></div></div>
+
+  <div class="section-title" id="statCardsTitle">⭐ Stats</div>
+  <div class="stats" id="statCards"></div>
+
+  <div class="section-title">🥇 Group awards</div>
+  <div class="awards" id="awards"></div>
+
+  <div class="section-title">📊 Performance</div>
+  <div class="grid">
+    <div class="card col8" id="card-perf"><h2>Leaderboard</h2><div id="perfToggle"></div><div class="hint">Switch the metric — points, correct picks, exact scores, or a normalized blend.</div><div class="chartbox xl"><canvas id="perfChart"></canvas></div></div>
+    <div class="card col4" id="card-region"><h2>By region 🌍</h2><div id="regionToggle"></div><div class="hint">Selected player vs group average across continents.</div><div class="chartbox" style="height:430px"><canvas id="regionChart"></canvas></div></div>
+
+    <div class="card col8" id="card-race"><h2>The race</h2><div id="raceToggle"></div><div class="hint">Cumulative points, or rank position, over each match day.</div><div class="chartbox tall"><canvas id="raceChart"></canvas></div></div>
+    <div class="card col4" id="card-style"><h2>Playing style</h2><div id="styleToggle"></div><div class="hint">Does boldness or going against the crowd pay off?</div><div class="chartbox tall"><canvas id="styleChart"></canvas></div></div>
+
+    <div class="card col12" id="card-acc"><h2>Accuracy breakdown</h2><div class="hint">Exact = 3 pts · right result = 1 pt · miss = 0.</div><div class="chartbox xl"><canvas id="accChart"></canvas></div></div>
+  </div>
+
+  <div class="section-title">🗓️ Best days</div>
+  <div class="card col12" id="card-bestdays"><h2>Points by match day</h2><div class="hint">Brighter = bigger haul that day. Your row is highlighted.</div><div class="hm" id="bestDaysHeat"></div></div>
+
+  <div class="section-title">😈 Nemesis &amp; bankers</div>
+  <div class="grid">
+    <div class="card col6" id="card-nemesis"><h2>Nemesis matches</h2><div class="hint">The chaos games — fewest players got the result.</div><div class="matchlist" id="nemesisList"></div></div>
+    <div class="card col6" id="card-banker"><h2>Banker matches</h2><div class="hint">The obvious ones — most players nailed the exact score.</div><div class="matchlist" id="bankerList"></div></div>
+  </div>
+
+  <div class="section-title">🧬 Similarity</div>
+  <div class="card col12" id="card-sim"><h2>Who predicts alike</h2><div class="hint">% of identical exact picks between every pair of players.</div><div class="hm" id="simHeat"></div></div>
+</div>
+
+<footer>Generated from 365Scores Predictions Cup</footer>
+
+<!-- vendor libs as regular scripts, same order as before -->
+<script src="assets/chart.umd.min.js"></script>
+<script src="assets/chartjs-plugin-datalabels.min.js"></script>
+<script src="assets/countUp.umd.js"></script>
+<script src="assets/confetti.browser.js"></script>
+<!-- app as a module (imports + uses import.meta.url) -->
+<script type="module" src="assets/dashboard.js"></script>
+</body>
+</html>

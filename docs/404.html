@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="he">
+<head>
+<meta charset="utf-8">
+<title>Redirecting…</title>
+<!-- spa-github-pages single-redirect (https://github.com/rafgraph/spa-github-pages).
+     Rewrites an unknown /<repo>/<slug> path into /<repo>/?/<slug> on the site
+     root and replaces history, so index.html (with its decode snippet) can
+     restore the original path. -->
+<script>
+  // pathSegmentsToKeep = number of leading path segments to preserve as the
+  // app base. 1 is correct for a PROJECT page (user.github.io/<repo>/...).
+  // Set to 0 for a user/org or custom-domain site served at the domain root.
+  var pathSegmentsToKeep = 1;
+
+  var l = window.location;
+  l.replace(
+    l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+    l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+    l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+    (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+    l.hash
+  );
+</script>
+</head>
+<body></body>
+</html>
