@@ -25,6 +25,11 @@ const ROOT = dirname(fileURLToPath(import.meta.url));
 const CONFIG_DIR = join(ROOT, "config");
 const DATA_DIR = join(ROOT, "docs", "data");
 
+// Safety: building a group fetches every member's full prediction history, so a
+// huge public pool (e.g. the global group id 1, ~248k members) would mean
+// hundreds of thousands of requests. Skip any group above this size.
+const MAX_MEMBERS = 2000;
+
 // Load the { slug: token } map: env first, then secrets/tokens.json. Fatal if neither.
 async function loadTokens() {
   if (process.env.USER_TOKENS) {
@@ -76,6 +81,10 @@ async function buildUser(cfg, token) {
     const meta = groups.find((g) => String(g.groupID) === String(groupId));
     if (!meta) {
       console.error(`  ⚠ ${cfg.slug}: no access to group ${groupId} — skipping`);
+      continue;
+    }
+    if ((meta.membersCount ?? 0) > MAX_MEMBERS) {
+      console.error(`  ⚠ ${cfg.slug}: group ${groupId} (${meta.name}) has ${meta.membersCount} members > ${MAX_MEMBERS} — too large to crawl, skipping`);
       continue;
     }
     try {
