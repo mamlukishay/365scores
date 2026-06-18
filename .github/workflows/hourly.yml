@@ -34,14 +34,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # 1. Get the repo (config/*.json and build.mjs live here).
+      #    v5+ runs the action itself on Node 24 (v4 is the deprecated Node 20 runtime).
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
-      # 2. Provide Node 24 (build.mjs targets it and uses only built-ins).
+      # 2. Provide Node 24 for build.mjs (which uses only built-ins).
+      #    setup-node v6 also runs natively on Node 24.
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 24
+          node-version: "24"
 
       # 3. Fetch fresh data and write docs/data/{slug}.json.
       #    No `npm install`: build.mjs has zero dependencies.
