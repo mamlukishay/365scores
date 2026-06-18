@@ -6,98 +6,122 @@
 <title>365Scores Predictions Cup — Admin</title>
 <link rel="stylesheet" href="assets/dashboard.css">
 <style>
-  /* Page-local styles (dashboard.css carries the shared look). */
-  body { max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
-  section { margin: 1.5rem 0; padding: 1rem 1.25rem; border: 1px solid #ccc; border-radius: 8px; }
-  h2 { margin-top: 0; }
-  label { display: block; margin: .4rem 0 .2rem; font-weight: 600; }
-  input[type=text], textarea { width: 100%; box-sizing: border-box; padding: .5rem; font: inherit; }
-  textarea { min-height: 4rem; font-family: monospace; }
-  button { padding: .5rem .9rem; font: inherit; cursor: pointer; margin: .3rem .3rem .3rem 0; }
-  .bookmarklet { display: inline-block; padding: .4rem .8rem; border: 2px dashed #555; border-radius: 6px; text-decoration: none; font-weight: 600; background: #f4f4f4; color: #111; }
-  .status { margin: .5rem 0; min-height: 1.2em; }
-  .status.err { color: #b00020; }
-  .status.ok  { color: #1b7a1b; }
+  /* Admin inherits the dashboard's dark theme (dashboard.css). These keep the
+     whole page readable and consistent on that dark background. */
+  body { max-width: 720px; margin: 2rem auto; padding: 0 1.1rem; }
+  h1 { font-size: 22px; margin: 0 0 .3rem; }
+  .lead { color: var(--muted); margin: 0 0 1.5rem; }
+  section { margin: 1.1rem 0; padding: 1.1rem 1.25rem; background: var(--card);
+    border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); }
+  h2 { margin: 0 0 .75rem; font-size: 16px; }
+  ol.steps { margin: .25rem 0 .75rem; padding-left: 1.25rem; }
+  ol.steps li { margin: .35rem 0; }
+  label { display: block; margin: .7rem 0 .25rem; font-weight: 600; }
+  input[type=text], textarea {
+    width: 100%; box-sizing: border-box; padding: .55rem .65rem; font: inherit;
+    background: var(--bg2); color: var(--fg); border: 1px solid var(--line); border-radius: 8px; }
+  textarea { min-height: 4rem; font-family: ui-monospace, monospace; }
+  button {
+    padding: .5rem .95rem; font: 600 14px Inter, sans-serif; cursor: pointer; margin: .35rem .35rem .35rem 0;
+    color: var(--fg); background: var(--raised); border: 1px solid var(--line); border-radius: 8px; }
+  button:hover { border-color: var(--accent); }
+  .bookmarklet {
+    display: inline-block; padding: .55rem 1rem; border-radius: 999px; text-decoration: none; font-weight: 700;
+    color: #fff; background: linear-gradient(135deg, var(--accent), var(--accent2)); box-shadow: var(--shadow); }
+  .status { margin: .5rem 0; min-height: 1.2em; color: var(--muted); }
+  .status.err { color: #ff7a7a; }
+  .status.ok  { color: var(--good); }
   .hidden { display: none; }
-  ul.groups { list-style: none; padding: 0; max-height: 16rem; overflow: auto; border: 1px solid #ddd; border-radius: 6px; }
-  ul.groups li { padding: .35rem .6rem; border-bottom: 1px solid #eee; }
+  ul.groups { list-style: none; padding: 0; margin: .5rem 0; max-height: 16rem; overflow: auto;
+    border: 1px solid var(--line); border-radius: 10px; }
+  ul.groups li { padding: .4rem .7rem; border-bottom: 1px solid var(--line); }
   ul.groups li:last-child { border-bottom: 0; }
-  ul.groups label { font-weight: 400; display: flex; gap: .5rem; align-items: baseline; margin: 0; }
-  .muted { color: #666; font-size: .9em; }
-  pre.json { background: #1e1e1e; color: #e6e6e6; padding: 1rem; border-radius: 6px; overflow: auto; white-space: pre-wrap; word-break: break-word; }
-  .reminder { border: 2px solid #d08a00; background: #fff7e6; padding: 1rem 1.25rem; border-radius: 8px; }
-  code { background: #eee; padding: .1em .3em; border-radius: 3px; }
+  ul.groups label { font-weight: 400; display: flex; gap: .55rem; align-items: baseline; margin: 0; }
+  .muted { color: var(--muted); font-size: .92em; }
+  a { color: var(--cyan); }
+  pre.json { background: #0a0c1a; color: #d7defb; padding: 1rem; border-radius: 10px; overflow: auto;
+    white-space: pre-wrap; word-break: break-word; border: 1px solid var(--line); }
+  .reminder { margin-top: 1.25rem; padding: .9rem 1.1rem; border-radius: 12px; color: var(--fg);
+    background: rgba(251, 191, 36, .12); border: 1px solid rgba(251, 191, 36, .55); }
+  code { background: rgba(255,255,255,.10); color: var(--fg); padding: .12em .4em; border-radius: 4px; font-size: .92em; }
 </style>
 </head>
 <body>
 
-<h1>365Scores Predictions Cup — Admin</h1>
-<p class="muted">Generate a <code>config/{slug}.json</code> for the Predictions Cup. Nothing is sent to a server — this page only talks to the 365scores API from your browser and builds a file for you to commit.</p>
+<h1>Add yourself to the Predictions dashboard</h1>
+<p class="lead">This page builds your personal settings file so the dashboard can track your prediction leagues. Everything runs in your browser — nothing is sent anywhere.</p>
 
-<!-- Step 1 — Get your token -->
+<!-- Step 1 -->
 <section>
-  <h2>Step 1 — Get your token</h2>
-  <p>Drag this link to your bookmarks bar, then open a <strong>365scores.com</strong> tab and click it:</p>
+  <h2>1 · Copy your 365Scores token</h2>
+  <p class="muted">A “token” is the key that lets the dashboard read your leagues. To get yours:</p>
   <!-- Bookmarklet: scans local/sessionStorage for a JWT, copies it to the clipboard.
        Self-contained IIFE, URL-encoded so it survives as an href on any origin. -->
-  <p><a class="bookmarklet" id="bm" href="#">Grab 365Scores token</a></p>
+  <ol class="steps">
+    <li>Drag this button up to your browser’s bookmarks bar:
+        &nbsp;<a class="bookmarklet" id="bm" href="#">Grab 365Scores token</a></li>
+    <li>Open <strong>365scores.com</strong> in another tab and make sure you’re logged in.</li>
+    <li>Click that new bookmark — it copies your token automatically.</li>
+    <li>Come back to this page.</li>
+  </ol>
   <details>
-    <summary>Manual fallback (DevTools)</summary>
-    <ol class="muted">
-      <li>Open DevTools (F12) → <strong>Network</strong> tab.</li>
-      <li>Reload, then click any request to <code>wcg-il.365scores.com</code>.</li>
-      <li>Under <strong>Request Headers</strong>, copy the <code>authorization</code> value.</li>
-      <li>Strip the leading <code>Bearer </code> — paste the rest below.</li>
+    <summary class="muted">Can’t use the bookmark? Copy it by hand</summary>
+    <ol class="steps muted">
+      <li>On 365scores.com, open DevTools (F12) → <strong>Network</strong> tab.</li>
+      <li>Reload the page, then click any request to <code>wcg-il.365scores.com</code>.</li>
+      <li>Under <strong>Request Headers</strong>, copy the <code>authorization</code> value (drop the leading <code>Bearer </code>).</li>
     </ol>
   </details>
 </section>
 
-<!-- Step 2 — Paste token -->
+<!-- Step 2 -->
 <section>
-  <h2>Step 2 — Paste token</h2>
-  <label for="token">365scores token (JWT)</label>
+  <h2>2 · Paste it and choose your leagues</h2>
+  <label for="token">Paste your token here</label>
   <textarea id="token" spellcheck="false" autocomplete="off" placeholder="eyJ..."></textarea>
-  <button id="loadBtn" type="button">Load my groups</button>
+  <button id="loadBtn" type="button">Show my leagues</button>
   <p class="status" id="loadStatus" role="status" aria-live="polite"></p>
 
   <div id="groupsWrap" class="hidden">
-    <p class="muted">Tick the groups to track (all selected by default):</p>
+    <p class="muted">Tick the leagues you want on your dashboard (all ticked by default):</p>
     <ul class="groups" id="groupsList"></ul>
   </div>
 
   <div id="manualWrap" class="hidden">
-    <label for="manualIds">Couldn't auto-load — enter group IDs manually (comma-separated)</label>
+    <label for="manualIds">Couldn’t load automatically — type your league IDs, separated by commas</label>
     <input type="text" id="manualIds" placeholder="123456, 234567">
   </div>
 </section>
 
-<!-- Step 3 — Your details -->
+<!-- Step 3 -->
 <section>
-  <h2>Step 3 — Your details</h2>
-  <label for="slug">Slug (url-safe, lowercase)</label>
+  <h2>3 · Name your page</h2>
+  <label for="slug">Page name — lowercase, no spaces</label>
   <input type="text" id="slug" placeholder="my-league" autocomplete="off">
-  <label for="displayName">Display name</label>
+  <p class="muted">This becomes your dashboard link, e.g. <code>my-league</code> → <code>…/365scores/my-league</code></p>
+  <label for="displayName">Your name (shown on the page)</label>
   <input type="text" id="displayName" placeholder="My League" autocomplete="off">
 </section>
 
-<!-- Step 4 — Generate & commit -->
+<!-- Step 4 -->
 <section>
-  <h2>Step 4 — Generate &amp; commit</h2>
-  <button id="genBtn" type="button">Generate</button>
+  <h2>4 · Save your settings</h2>
+  <button id="genBtn" type="button">Create my settings file</button>
   <p class="status" id="genStatus" role="status" aria-live="polite"></p>
 
   <div id="outWrap" class="hidden">
-    <pre class="json" id="jsonOut" tabindex="0"></pre>
-    <button id="copyBtn" type="button">Copy JSON</button>
+    <p class="muted">Now submit it — the easiest way is the green button (GitHub opens with everything filled in; just confirm):</p>
+    <a id="ghLink" href="#" target="_blank" rel="noopener"><button type="button">Submit to GitHub</button></a>
+    <button id="copyBtn" type="button">Copy</button>
     <button id="dlBtn" type="button">Download file</button>
-    <a id="ghLink" href="#" target="_blank" rel="noopener"><button type="button">Add to repo on GitHub</button></a>
-    <p class="muted">If you don't have write access, GitHub will offer to create a fork and open a pull request — that's fine.</p>
+    <p class="muted">No GitHub access? GitHub will offer to open a “pull request” — just confirm it, and the owner approves. Or use Copy/Download and send the file to the owner.</p>
+    <pre class="json" id="jsonOut" tabindex="0"></pre>
   </div>
 
-  <div class="reminder" style="margin-top:1.5rem">
-    <strong>Final step:</strong> privately send your token to the repo owner so they can add it to the
-    <code>USER_TOKENS</code> GitHub Actions secret — that's what lets the scheduled cron fetch on your behalf.
-    Your token is <strong>NOT</strong> committed to the repo.
+  <div class="reminder">
+    <strong>One last thing:</strong> privately send your token to the dashboard owner so they can switch on automatic updates for you.
+    Until they do — and the next update runs (within ~15 min) — your page will say “no data yet”.
+    Your token is <strong>never</strong> saved into the project.
   </div>
 </section>
 

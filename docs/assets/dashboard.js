@@ -441,9 +441,12 @@ function mount(metrics) {
 const SITE_ROOT = new URL('../', import.meta.url);
 const GROUP_KEY = (slug) => `selectedGroup:${slug}`;
 
-function showMessage(msg) {
-  const g = $("#groupName"); if (g) g.textContent = msg;
-  const meta = $("#meta"); if (meta) meta.textContent = "";
+// Clean "nothing to show" state: hide the (empty) dashboard body and explain.
+function emptyState(title, detail) {
+  const w = document.querySelector(".wrap"); if (w) w.style.display = "none";
+  const f = document.querySelector("footer"); if (f) f.style.display = "none";
+  const g = $("#groupName"); if (g) g.textContent = title;
+  const m = $("#meta"); if (m) m.textContent = detail || "";
 }
 
 function slugFromPath() {
@@ -458,29 +461,48 @@ const hhmm = (d) => `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinu
 
 async function boot() {
   const slug = slugFromPath();
-  if (!slug) {
-    showMessage("Append your name to the URL, e.g. /your-name");
-    return;
-  }
+  const gsel = $("#groupSelect");
+  const btn = $("#refreshBtn");
+  let map = null, currentGid = null;
 
-  let map;
+  // Live on-demand refresh of the selected group. Wired up-front so the button
+  // always gives feedback — even before/without data.
+  async function onRefresh() {
+    const token = (() => { try { return localStorage.getItem("scores_token"); } catch { return null; } })();
+    if (!token) { setStatus(`No token yet — <a href="./admin.html">add it on the admin page</a>, then come back.`); return; }
+    if (!currentGid) { setStatus(`Nothing to update yet.`); return; }
+    btn.disabled = true;
+    setStatus("Updating…");
+    try {
+      mount(analyze(await fetchGroupSnapshot(token, currentGid)));
+      setStatus(`Live · updated ${hhmm(new Date())}`);
+    } catch (e) {
+      const expired = /401|403|expired|invalid/i.test(String(e && e.message));
+      setStatus(expired ? `Token expired — <a href="./admin.html">re-grab it on admin</a>.` : `Update failed — try again.`);
+    } finally {
+      btn.disabled = false;
+    }
+  }
+  if (btn) btn.addEventListener("click", onRefresh);
+
+  if (!slug) { emptyState("Pick a dashboard", "Add a name to the URL, e.g. /your-name"); return; }
+
   try {
-    const url = new URL(`data/${encodeURIComponent(slug)}.json`, SITE_ROOT);
-    const res = await fetch(url);
+    const res = await fetch(new URL(`data/${encodeURIComponent(slug)}.json`, SITE_ROOT));
     if (!res.ok) throw new Error(String(res.status));
     map = await res.json();
   } catch {
-    showMessage(`No data yet for "${slug}".`);
+    emptyState(`No data yet for “${slug}”`,
+      "This page fills in automatically once the owner has added this user’s token and the next refresh has run (within ~15 min).");
     return;
   }
   const groupIds = Object.keys(map || {});
   if (!groupIds.length) {
-    showMessage(`No data yet for "${slug}".`);
+    emptyState(`No data yet for “${slug}”`, "No groups have been collected for this user yet.");
     return;
   }
 
   // group switcher
-  const gsel = $("#groupSelect");
   gsel.innerHTML = "";
   groupIds.forEach((gid) => {
     const o = el("option", null, (map[gid]?.group?.name) || `Group ${gid}`);
@@ -488,38 +510,13 @@ async function boot() {
     gsel.appendChild(o);
   });
   const savedGid = (() => { try { return localStorage.getItem(GROUP_KEY(slug)); } catch { return null; } })();
-  let currentGid = groupIds.includes(savedGid) ? savedGid : groupIds[0];
+  currentGid = groupIds.includes(savedGid) ? savedGid : groupIds[0];
   gsel.value = currentGid;
   gsel.addEventListener("change", () => {
     currentGid = gsel.value;
     try { localStorage.setItem(GROUP_KEY(slug), currentGid); } catch {}
     setStatus("");
     mount(map[currentGid]);
-  });
-
-  // live refresh
-  const btn = $("#refreshBtn");
-  btn.addEventListener("click", async () => {
-    const token = (() => { try { return localStorage.getItem("scores_token"); } catch { return null; } })();
-    if (!token) {
-      setStatus(`no token — <a href="./admin.html">paste it in admin</a>`);
-      return;
-    }
-    btn.disabled = true;
-    setStatus("updating…");
-    try {
-      const snap = await fetchGroupSnapshot(token, currentGid);
-      const metrics = analyze(snap);
-      mount(metrics);
-      setStatus(`live · ${hhmm(new Date())}`);
-    } catch (e) {
-      const expired = /401|403|expired|invalid/i.test(String(e && e.message));
-      setStatus(expired
-        ? `token expired — <a href="./admin.html">re-grab it in admin</a>`
-        : `update failed`);
-    } finally {
-      btn.disabled = false;
-    }
   });
 
   mount(map[currentGid]);
