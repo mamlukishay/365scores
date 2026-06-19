@@ -165,7 +165,7 @@ $("loadBtn").addEventListener("click", async () => {
   const token = stripBearer($("token").value);
   if (!token) { status.className = "status err"; status.textContent = "Paste a token first."; return; }
 
-  localStorage.setItem("scores_token", token);   // viewer page reuses this
+  localStorage.setItem("scores_token", token);   // just to pre-fill this field on your next visit
   status.className = "status"; status.textContent = "Loading your groups…";
   $("groupsWrap").classList.add("hidden");
   $("manualWrap").classList.add("hidden");

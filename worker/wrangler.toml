@@ -1,0 +1,12 @@
+name = "scores-refresh"
+main = "index.js"
+compatibility_date = "2024-09-01"
+
+# Optional overrides (defaults are baked into index.js):
+# [vars]
+# REPO = "mamlukishay/365scores"
+# WORKFLOW = "hourly.yml"
+# REF = "main"
+
+# GH_TOKEN is a SECRET — never put it here. Set it with:
+#   wrangler secret put GH_TOKEN

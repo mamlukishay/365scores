@@ -26,10 +26,7 @@
   /* New header controls — reuse the .viewer pill look. */
   .controls{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
   .controls .viewer{flex:0 0 auto}
-  #refreshBtn{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:0;
-    border-radius:999px;padding:9px 18px;font:600 14px Inter,sans-serif;cursor:pointer;box-shadow:var(--shadow)}
-  #refreshBtn:disabled{opacity:.55;cursor:default}
-  #refreshStatus{color:var(--fg);font-size:13px;font-weight:600;min-width:90px}
+  #refreshStatus{color:var(--muted-fg,#9aa3c4);font-size:12px;font-weight:600;min-width:90px}
   #refreshStatus a{color:var(--cyan)}
 </style>
 </head>
@@ -45,7 +42,6 @@
       <label for="playerSelect">Viewing&nbsp;as</label>
       <select id="playerSelect"></select><span class="chev">▾</span>
     </div>
-    <button id="refreshBtn">Update now</button>
     <span id="refreshStatus"></span>
   </div>
 </header>

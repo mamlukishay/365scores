@@ -1,8 +1,13 @@
 /* 365Scores Predictions Cup — interactive dashboard client (module).
    Fetches data/{slug}.json (a map of groupId -> metrics) and renders one group
-   at a time via mount(). Supports group switching + on-demand live refresh. */
-import { analyze } from './analyze.mjs';
-import { fetchGroupSnapshot, fetchUserGroups } from './scores-api.mjs';
+   at a time via mount(). Supports group switching. To stay "almost live" the
+   page polls every 30s: it re-fetches the snapshot and re-renders on change,
+   and pings the refresh Worker (which throttles builds to ~1/min globally). */
+
+// Cloudflare Worker that triggers a fresh server build (see /worker). Leave ""
+// to disable build-triggering — the 30s snapshot re-fetch still works without it.
+const REFRESH_ENDPOINT = "https://scores-refresh.mamlukishay.workers.dev";
+const POLL_MS = 30_000;
 
 const $ = (s, r = document) => r.querySelector(s);
 const el = (t, c, h) => { const e = document.createElement(t); if (c) e.className = c; if (h != null) e.innerHTML = h; return e; };
@@ -466,38 +471,25 @@ function slugFromPath() {
 function setStatus(html) { const s = $("#refreshStatus"); if (s) s.innerHTML = html; }
 const hhmm = (d) => `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
 
-// Keep in sync with build.mjs: never crawl a giant public pool (e.g. global group, ~248k).
-const MAX_MEMBERS = 2000;
-
-// Build the whole {groupId: metrics} map live in the browser from a token —
-// mirrors build.mjs, so a page is usable even before the cron has ever run.
-async function liveBuildMap(token) {
-  const groups = await fetchUserGroups(token);
-  const usable = groups.filter((g) => (g.membersCount ?? 0) <= MAX_MEMBERS);
-  const map = {};
-  await Promise.all(usable.map(async (g) => {
-    try { map[String(g.groupID)] = analyze(await fetchGroupSnapshot(token, g.groupID, g)); } catch {}
-  }));
-  return map;
-}
-
 async function boot() {
   const slug = slugFromPath();
   const gsel = $("#groupSelect");
-  const btn = $("#refreshBtn");
-  let map = null, currentGid = null;
+  let map = null, currentGid = null, lastJson = null;
 
-  const getToken = () => { try { return localStorage.getItem("scores_token"); } catch { return null; } };
+  // (Re)build the group <select> options to match the current map.
+  function syncGroupOptions(ids) {
+    gsel.innerHTML = "";
+    ids.forEach((gid) => { const o = el("option", null, (map[gid]?.group?.name) || `Group ${gid}`); o.value = gid; gsel.appendChild(o); });
+  }
 
-  // Populate the group switcher and render the selected group. Returns false if empty.
+  // First render: reveal the body, build the switcher, mount the saved/first group.
   function renderMap(m) {
     map = m;
     const ids = Object.keys(map || {});
     if (!ids.length) return false;
     const w = document.querySelector(".wrap"); if (w) w.style.display = "";
     const f = document.querySelector("footer"); if (f) f.style.display = "";
-    gsel.innerHTML = "";
-    ids.forEach((gid) => { const o = el("option", null, (map[gid]?.group?.name) || `Group ${gid}`); o.value = gid; gsel.appendChild(o); });
+    syncGroupOptions(ids);
     const saved = (() => { try { return localStorage.getItem(GROUP_KEY(slug)); } catch { return null; } })();
     currentGid = ids.includes(saved) ? saved : ids[0];
     gsel.value = currentGid;
@@ -505,51 +497,71 @@ async function boot() {
     return true;
   }
 
+  // Poll update: swap in fresh data and re-render the *current* group, keeping
+  // the user's group choice (player choice is restored by mount via localStorage).
+  // Rebuilds the switcher only if the set of groups actually changed.
+  function applyUpdate(m) {
+    const oldIds = Object.keys(map || {});
+    map = m;
+    const ids = Object.keys(map);
+    if (!ids.length) return;
+    if (ids.length !== oldIds.length || ids.some((id, i) => id !== oldIds[i])) syncGroupOptions(ids);
+    if (!ids.includes(currentGid)) currentGid = ids[0];
+    gsel.value = currentGid;
+    mount(map[currentGid]);
+    setStatus(`Updated ${hhmm(new Date())}`);
+  }
+
   gsel.addEventListener("change", () => {
     currentGid = gsel.value;
     try { localStorage.setItem(GROUP_KEY(slug), currentGid); } catch {}
-    setStatus("");
     mount(map[currentGid]);
   });
 
-  // "Update now": refresh the selected group, or — if the page has no data yet —
-  // discover the token's groups and build the whole dashboard live in the browser.
-  async function onRefresh() {
-    const token = getToken();
-    if (!token) { setStatus(`No token yet — <a href="./admin.html">add it on the admin page</a>, then come back.`); return; }
-    btn.disabled = true;
-    setStatus(currentGid ? "Updating…" : "Loading your data live…");
-    try {
-      if (currentGid) {
-        mount(analyze(await fetchGroupSnapshot(token, currentGid)));
-      } else if (!renderMap(await liveBuildMap(token))) {
-        setStatus("No groups found for your token."); return;
-      }
-      setStatus(`Live · updated ${hhmm(new Date())}`);
-    } catch (e) {
-      const expired = /401|403|expired|invalid/i.test(String(e && e.message));
-      setStatus(expired ? `Token expired — <a href="./admin.html">re-grab it on admin</a>.` : `Update failed — try again.`);
-    } finally {
-      btn.disabled = false;
-    }
-  }
-  if (btn) btn.addEventListener("click", onRefresh);
-
   if (!slug) { emptyState("Pick a dashboard", "Add a name to the URL, e.g. /your-name"); return; }
 
-  // 1) Prefer the server-built snapshot.
-  try {
-    const res = await fetch(new URL(`data/${encodeURIComponent(slug)}.json`, SITE_ROOT));
-    if (res.ok && renderMap(await res.json())) return;
-  } catch { /* fall through to the live path */ }
+  const SNAP_URL = new URL(`data/${encodeURIComponent(slug)}.json`, SITE_ROOT);
 
-  // 2) No server data yet — let the user load it live if they have a token saved.
-  if (getToken()) {
-    emptyState(`No saved data for “${slug}” yet`, "You have a token saved — press “Update now” to load your data live.");
+  // Fetch the server-built snapshot. Returns { text, map } or null on miss.
+  // `text` is kept verbatim for change detection — build.mjs leaves the file
+  // byte-for-byte identical when no real data moved, so a text change == new data.
+  async function fetchSnapshot() {
+    const res = await fetch(SNAP_URL, { cache: "no-store" });
+    if (!res.ok) return null;
+    const text = await res.text();
+    return { text, map: JSON.parse(text) };
+  }
+
+  // Ask the Worker to trigger a fresh server build. Fire-and-forget — the Worker
+  // throttles to ~1 build/min globally, so it's fine to call on every poll.
+  function pingRefresh() {
+    if (!REFRESH_ENDPOINT) return;
+    fetch(REFRESH_ENDPOINT, { method: "POST", keepalive: true }).catch(() => {});
+  }
+
+  // ---- initial load ----
+  let snap = null;
+  try { snap = await fetchSnapshot(); } catch { /* keep polling below */ }
+  if (snap && renderMap(snap.map)) {
+    lastJson = snap.text;
+    setStatus("Auto-updating");
   } else {
     emptyState(`No data yet for “${slug}”`,
-      "This fills in automatically once the owner adds this user’s token and the next refresh runs (~15 min). Or add your own token on the admin page and press “Update now”.");
+      "This fills in automatically once the owner adds this user’s token and the next refresh runs. Hang tight — the page keeps checking.");
   }
+
+  // ---- 30s poll: nudge a fresh build, pull the latest snapshot, re-render on change ----
+  async function tick() {
+    if (document.hidden) return; // don't poll a backgrounded tab
+    pingRefresh();
+    let s = null;
+    try { s = await fetchSnapshot(); } catch { return; }
+    if (!s || s.text === lastJson) return; // nothing new since last render
+    lastJson = s.text;
+    if (map) applyUpdate(s.map);
+    else if (renderMap(s.map)) setStatus(`Updated ${hhmm(new Date())}`);
+  }
+  setInterval(tick, POLL_MS);
 }
 
 boot();

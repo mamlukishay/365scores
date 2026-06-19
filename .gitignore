@@ -8,3 +8,10 @@ reports/
 # Local dev secrets (never commit). In CI these come from the USER_TOKENS Actions secret.
 secrets/*
 !secrets/tokens.example.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
