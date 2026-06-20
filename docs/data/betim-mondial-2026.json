@@ -7,7 +7,7 @@
       "invitationLink": "https://short.365scores.com/TYvJzx",
       "userRank": 4
     },
-    "pulledAt": "2026-06-20T22:03:53.281Z",
+    "pulledAt": "2026-06-20T23:36:00.939Z",
     "finishedCount": 34,
     "totalGames": 72,
     "continents": [
@@ -315,7 +315,7 @@
         "exact": 2,
         "partial": 18,
         "miss": 14,
-        "points": 23,
+        "points": 24,
         "played": 34,
         "hitRate": 0.588,
         "exactRate": 0.059,
@@ -339,7 +339,7 @@
         "exact": 4,
         "partial": 10,
         "miss": 20,
-        "points": 21,
+        "points": 22,
         "played": 34,
         "hitRate": 0.412,
         "exactRate": 0.118,
@@ -613,7 +613,7 @@
             14,
             17,
             21,
-            23
+            24
           ]
         },
         {
@@ -645,7 +645,7 @@
             13,
             16,
             17,
-            21
+            22
           ]
         },
         {
@@ -4230,7 +4230,7 @@
           "2026-06-17": 3,
           "2026-06-18": 3,
           "2026-06-19": 4,
-          "2026-06-20": 2
+          "2026-06-20": 3
         },
         "matchesByDate": {
           "2026-06-11": [
@@ -4590,7 +4590,7 @@
               "pa": 3,
               "pb": 0,
               "outcome": 2,
-              "points": 0
+              "points": 1
             }
           ]
         },
@@ -4994,7 +4994,7 @@
           "2026-06-17": 2,
           "2026-06-18": 3,
           "2026-06-19": 1,
-          "2026-06-20": 4
+          "2026-06-20": 5
         },
         "matchesByDate": {
           "2026-06-11": [
@@ -5354,13 +5354,13 @@
               "pa": 1,
               "pb": 0,
               "outcome": 2,
-              "points": 0
+              "points": 1
             }
           ]
         },
         "best": {
-          "date": "2026-06-13",
-          "points": 4
+          "date": "2026-06-20",
+          "points": 5
         }
       },
       {
@@ -9130,10 +9130,10 @@
           {
             "continent": "Europe",
             "games": 21,
-            "points": 11,
+            "points": 12,
             "hits": 12,
             "exact": 0,
-            "ppg": 0.52,
+            "ppg": 0.57,
             "hitRate": 0.571
           },
           {
@@ -9148,10 +9148,10 @@
           {
             "continent": "Africa",
             "games": 13,
-            "points": 8,
+            "points": 9,
             "hits": 7,
             "exact": 1,
-            "ppg": 0.62,
+            "ppg": 0.69,
             "hitRate": 0.538
           },
           {
@@ -9286,10 +9286,10 @@
           {
             "continent": "Europe",
             "games": 21,
-            "points": 11,
+            "points": 12,
             "hits": 8,
             "exact": 2,
-            "ppg": 0.52,
+            "ppg": 0.57,
             "hitRate": 0.381
           },
           {
@@ -9304,10 +9304,10 @@
           {
             "continent": "Africa",
             "games": 13,
-            "points": 2,
+            "points": 3,
             "hits": 3,
             "exact": 0,
-            "ppg": 0.15,
+            "ppg": 0.23,
             "hitRate": 0.231
           },
           {
@@ -9350,10 +9350,10 @@
         "worst": {
           "continent": "Africa",
           "games": 13,
-          "points": 2,
+          "points": 3,
           "hits": 3,
           "exact": 0,
-          "ppg": 0.15,
+          "ppg": 0.23,
           "hitRate": 0.231
         }
       },
@@ -10070,7 +10070,7 @@
         "contrarianShare": 0.706,
         "contrarianHits": 15,
         "contrarianPicks": 24,
-        "points": 23,
+        "points": 24,
         "hitRate": 0.588
       },
       {
@@ -10088,7 +10088,7 @@
         "contrarianShare": 0.941,
         "contrarianHits": 13,
         "contrarianPicks": 32,
-        "points": 21,
+        "points": 22,
         "hitRate": 0.412
       },
       {
@@ -10261,7 +10261,7 @@
         "avgGoals": 2.5,
         "boldShare": 0.588,
         "drawShare": 0.147,
-        "points": 23,
+        "points": 24,
         "hitRate": 0.588,
         "exact": 2
       },
@@ -10281,7 +10281,7 @@
         "avgGoals": 2.76,
         "boldShare": 0.471,
         "drawShare": 0.206,
-        "points": 21,
+        "points": 22,
         "hitRate": 0.412,
         "exact": 4
       },
@@ -12318,7 +12318,7 @@
         "exact": 2,
         "partial": 18,
         "miss": 14,
-        "points": 23,
+        "points": 24,
         "hitRate": 0.588,
         "exactRate": 0.059,
         "sharpness": 0.1,
@@ -12412,13 +12412,13 @@
         "exact": 4,
         "partial": 10,
         "miss": 20,
-        "points": 21,
+        "points": 22,
         "hitRate": 0.412,
         "exactRate": 0.118,
         "sharpness": 0.286,
         "bestDay": {
-          "date": "2026-06-13",
-          "points": 4
+          "date": "2026-06-20",
+          "points": 5
         },
         "bestRegion": {
           "continent": "South America",
@@ -12432,10 +12432,10 @@
         "worstRegion": {
           "continent": "Africa",
           "games": 13,
-          "points": 2,
+          "points": 3,
           "hits": 3,
           "exact": 0,
-          "ppg": 0.15,
+          "ppg": 0.23,
           "hitRate": 0.231
         },
         "avgGoals": 2.76,
