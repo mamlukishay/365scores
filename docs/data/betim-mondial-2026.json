@@ -7,7 +7,7 @@
       "invitationLink": "https://short.365scores.com/TYvJzx",
       "userRank": 3
     },
-    "pulledAt": "2026-06-26T01:07:50.052Z",
+    "pulledAt": "2026-06-26T01:09:19.424Z",
     "finishedCount": 58,
     "totalGames": 75,
     "continents": [
@@ -279,7 +279,7 @@
         "exact": 6,
         "partial": 25,
         "miss": 27,
-        "points": 40,
+        "points": 43,
         "played": 58,
         "hitRate": 0.534,
         "exactRate": 0.103,
@@ -605,7 +605,7 @@
             32,
             34,
             38,
-            40
+            43
           ]
         },
         {
@@ -4724,7 +4724,7 @@
           "2026-06-22": 4,
           "2026-06-23": 2,
           "2026-06-24": 4,
-          "2026-06-25": 2
+          "2026-06-25": 5
         },
         "matchesByDate": {
           "2026-06-11": [
@@ -5334,7 +5334,7 @@
               "pa": 1,
               "pb": 1,
               "outcome": 3,
-              "points": 0
+              "points": 3
             }
           ]
         },
@@ -14101,10 +14101,10 @@
           {
             "continent": "Europe",
             "games": 36,
-            "points": 27,
+            "points": 30,
             "hits": 18,
             "exact": 6,
-            "ppg": 0.75,
+            "ppg": 0.83,
             "hitRate": 0.5
           },
           {
@@ -14128,10 +14128,10 @@
           {
             "continent": "Asia",
             "games": 19,
-            "points": 12,
+            "points": 15,
             "hits": 11,
             "exact": 2,
-            "ppg": 0.63,
+            "ppg": 0.79,
             "hitRate": 0.579
           },
           {
@@ -15248,7 +15248,7 @@
         "contrarianShare": 0.638,
         "contrarianHits": 19,
         "contrarianPicks": 37,
-        "points": 40,
+        "points": 43,
         "hitRate": 0.534
       },
       {
@@ -15436,7 +15436,7 @@
         "avgGoals": 2.72,
         "boldShare": 0.448,
         "drawShare": 0.241,
-        "points": 40,
+        "points": 43,
         "hitRate": 0.534,
         "exact": 6
       },
@@ -17421,7 +17421,7 @@
         "exact": 6,
         "partial": 25,
         "miss": 27,
-        "points": 40,
+        "points": 43,
         "hitRate": 0.534,
         "exactRate": 0.103,
         "sharpness": 0.194,
