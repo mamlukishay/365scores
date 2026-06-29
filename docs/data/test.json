@@ -7,8 +7,8 @@
       "invitationLink": "https://short.365scores.com/TYvJzx",
       "userRank": 12
     },
-    "pulledAt": "2026-06-29T21:07:02.844Z",
-    "finishedCount": 74,
+    "pulledAt": "2026-06-29T23:33:17.206Z",
+    "finishedCount": 75,
     "totalGames": 88,
     "continents": [
       "Europe",
@@ -206,11 +206,11 @@
         "isMe": false,
         "exact": 13,
         "partial": 35,
-        "miss": 26,
+        "miss": 27,
         "points": 76,
-        "played": 74,
-        "hitRate": 0.649,
-        "exactRate": 0.176,
+        "played": 75,
+        "hitRate": 0.64,
+        "exactRate": 0.173,
         "sharpness": 0.271
       },
       {
@@ -218,11 +218,11 @@
         "isMe": false,
         "exact": 11,
         "partial": 35,
-        "miss": 28,
+        "miss": 29,
         "points": 71,
-        "played": 74,
-        "hitRate": 0.622,
-        "exactRate": 0.149,
+        "played": 75,
+        "hitRate": 0.613,
+        "exactRate": 0.147,
         "sharpness": 0.239
       },
       {
@@ -230,11 +230,11 @@
         "isMe": false,
         "exact": 8,
         "partial": 39,
-        "miss": 27,
+        "miss": 28,
         "points": 65,
-        "played": 74,
-        "hitRate": 0.635,
-        "exactRate": 0.108,
+        "played": 75,
+        "hitRate": 0.627,
+        "exactRate": 0.107,
         "sharpness": 0.17
       },
       {
@@ -242,11 +242,11 @@
         "isMe": false,
         "exact": 8,
         "partial": 38,
-        "miss": 28,
+        "miss": 29,
         "points": 63,
-        "played": 74,
-        "hitRate": 0.622,
-        "exactRate": 0.108,
+        "played": 75,
+        "hitRate": 0.613,
+        "exactRate": 0.107,
         "sharpness": 0.174
       },
       {
@@ -254,11 +254,11 @@
         "isMe": false,
         "exact": 8,
         "partial": 36,
-        "miss": 30,
+        "miss": 31,
         "points": 62,
-        "played": 74,
-        "hitRate": 0.595,
-        "exactRate": 0.108,
+        "played": 75,
+        "hitRate": 0.587,
+        "exactRate": 0.107,
         "sharpness": 0.182
       },
       {
@@ -266,11 +266,11 @@
         "isMe": false,
         "exact": 5,
         "partial": 43,
-        "miss": 26,
+        "miss": 27,
         "points": 61,
-        "played": 74,
-        "hitRate": 0.649,
-        "exactRate": 0.068,
+        "played": 75,
+        "hitRate": 0.64,
+        "exactRate": 0.067,
         "sharpness": 0.104
       },
       {
@@ -278,11 +278,11 @@
         "isMe": false,
         "exact": 7,
         "partial": 35,
-        "miss": 32,
+        "miss": 33,
         "points": 60,
-        "played": 74,
-        "hitRate": 0.568,
-        "exactRate": 0.095,
+        "played": 75,
+        "hitRate": 0.56,
+        "exactRate": 0.093,
         "sharpness": 0.167
       },
       {
@@ -290,11 +290,11 @@
         "isMe": false,
         "exact": 7,
         "partial": 35,
-        "miss": 32,
+        "miss": 33,
         "points": 59,
-        "played": 74,
-        "hitRate": 0.568,
-        "exactRate": 0.095,
+        "played": 75,
+        "hitRate": 0.56,
+        "exactRate": 0.093,
         "sharpness": 0.167
       },
       {
@@ -302,11 +302,11 @@
         "isMe": false,
         "exact": 6,
         "partial": 38,
-        "miss": 30,
+        "miss": 31,
         "points": 58,
-        "played": 74,
-        "hitRate": 0.595,
-        "exactRate": 0.081,
+        "played": 75,
+        "hitRate": 0.587,
+        "exactRate": 0.08,
         "sharpness": 0.136
       },
       {
@@ -314,11 +314,11 @@
         "isMe": false,
         "exact": 6,
         "partial": 37,
-        "miss": 31,
+        "miss": 32,
         "points": 58,
-        "played": 74,
-        "hitRate": 0.581,
-        "exactRate": 0.081,
+        "played": 75,
+        "hitRate": 0.573,
+        "exactRate": 0.08,
         "sharpness": 0.14
       },
       {
@@ -326,11 +326,11 @@
         "isMe": false,
         "exact": 6,
         "partial": 36,
-        "miss": 32,
+        "miss": 33,
         "points": 56,
-        "played": 74,
-        "hitRate": 0.568,
-        "exactRate": 0.081,
+        "played": 75,
+        "hitRate": 0.56,
+        "exactRate": 0.08,
         "sharpness": 0.143
       },
       {
@@ -338,11 +338,11 @@
         "isMe": true,
         "exact": 7,
         "partial": 34,
-        "miss": 33,
+        "miss": 34,
         "points": 55,
-        "played": 74,
-        "hitRate": 0.554,
-        "exactRate": 0.095,
+        "played": 75,
+        "hitRate": 0.547,
+        "exactRate": 0.093,
         "sharpness": 0.171
       },
       {
@@ -350,11 +350,11 @@
         "isMe": false,
         "exact": 6,
         "partial": 36,
-        "miss": 32,
+        "miss": 33,
         "points": 55,
-        "played": 74,
-        "hitRate": 0.568,
-        "exactRate": 0.081,
+        "played": 75,
+        "hitRate": 0.56,
+        "exactRate": 0.08,
         "sharpness": 0.143
       },
       {
@@ -362,11 +362,11 @@
         "isMe": false,
         "exact": 6,
         "partial": 34,
-        "miss": 34,
+        "miss": 35,
         "points": 54,
-        "played": 74,
-        "hitRate": 0.541,
-        "exactRate": 0.081,
+        "played": 75,
+        "hitRate": 0.533,
+        "exactRate": 0.08,
         "sharpness": 0.15
       },
       {
@@ -374,11 +374,11 @@
         "isMe": false,
         "exact": 5,
         "partial": 37,
-        "miss": 32,
+        "miss": 33,
         "points": 53,
-        "played": 74,
-        "hitRate": 0.568,
-        "exactRate": 0.068,
+        "played": 75,
+        "hitRate": 0.56,
+        "exactRate": 0.067,
         "sharpness": 0.119
       },
       {
@@ -386,11 +386,11 @@
         "isMe": false,
         "exact": 5,
         "partial": 34,
-        "miss": 35,
+        "miss": 36,
         "points": 52,
-        "played": 74,
-        "hitRate": 0.527,
-        "exactRate": 0.068,
+        "played": 75,
+        "hitRate": 0.52,
+        "exactRate": 0.067,
         "sharpness": 0.128
       },
       {
@@ -398,11 +398,11 @@
         "isMe": false,
         "exact": 4,
         "partial": 35,
-        "miss": 35,
+        "miss": 36,
         "points": 49,
-        "played": 74,
-        "hitRate": 0.527,
-        "exactRate": 0.054,
+        "played": 75,
+        "hitRate": 0.52,
+        "exactRate": 0.053,
         "sharpness": 0.103
       },
       {
@@ -410,11 +410,11 @@
         "isMe": false,
         "exact": 6,
         "partial": 27,
-        "miss": 41,
+        "miss": 42,
         "points": 46,
-        "played": 74,
-        "hitRate": 0.446,
-        "exactRate": 0.081,
+        "played": 75,
+        "hitRate": 0.44,
+        "exactRate": 0.08,
         "sharpness": 0.182
       },
       {
@@ -422,11 +422,11 @@
         "isMe": false,
         "exact": 3,
         "partial": 35,
-        "miss": 36,
+        "miss": 37,
         "points": 46,
-        "played": 74,
-        "hitRate": 0.514,
-        "exactRate": 0.041,
+        "played": 75,
+        "hitRate": 0.507,
+        "exactRate": 0.04,
         "sharpness": 0.079
       },
       {
@@ -434,11 +434,11 @@
         "isMe": false,
         "exact": 7,
         "partial": 22,
-        "miss": 45,
+        "miss": 46,
         "points": 45,
-        "played": 74,
-        "hitRate": 0.392,
-        "exactRate": 0.095,
+        "played": 75,
+        "hitRate": 0.387,
+        "exactRate": 0.093,
         "sharpness": 0.241
       }
     ],
@@ -1769,6 +1769,16 @@
               "pb": 0,
               "outcome": 2,
               "points": 2
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 3,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -2578,6 +2588,16 @@
               "pb": 1,
               "outcome": 3,
               "points": 5
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -3387,6 +3407,16 @@
               "pb": 1,
               "outcome": 2,
               "points": 2
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -4196,6 +4226,16 @@
               "pb": 1,
               "outcome": 2,
               "points": 2
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -5005,6 +5045,16 @@
               "pb": 1,
               "outcome": 3,
               "points": 5
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -5814,6 +5864,16 @@
               "pb": 1,
               "outcome": 3,
               "points": 5
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -6623,6 +6683,16 @@
               "pb": 1,
               "outcome": 3,
               "points": 5
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 3,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -7432,6 +7502,16 @@
               "pb": 1,
               "outcome": 3,
               "points": 5
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 3,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -8241,6 +8321,16 @@
               "pb": 0,
               "outcome": 2,
               "points": 2
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 4,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -9050,6 +9140,16 @@
               "pb": 1,
               "outcome": 3,
               "points": 5
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -9859,6 +9959,16 @@
               "pb": 1,
               "outcome": 2,
               "points": 2
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -10666,6 +10776,16 @@
               "s2": 1,
               "pa": 2,
               "pb": 2,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 1,
               "outcome": 0,
               "points": 0
             }
@@ -11477,6 +11597,16 @@
               "pb": 2,
               "outcome": 0,
               "points": 0
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 3,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -12286,6 +12416,16 @@
               "pb": 1,
               "outcome": 3,
               "points": 5
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -13095,6 +13235,16 @@
               "pb": 1,
               "outcome": 2,
               "points": 2
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -13904,6 +14054,16 @@
               "pb": 1,
               "outcome": 3,
               "points": 5
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -14713,6 +14873,16 @@
               "pb": 1,
               "outcome": 3,
               "points": 5
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 3,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -15520,6 +15690,16 @@
               "s2": 1,
               "pa": 2,
               "pb": 2,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 1,
+              "pb": 0,
               "outcome": 0,
               "points": 0
             }
@@ -16331,6 +16511,16 @@
               "pb": 0,
               "outcome": 2,
               "points": 2
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -17140,6 +17330,16 @@
               "pb": 1,
               "outcome": 2,
               "points": 2
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 4,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -17156,21 +17356,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 39,
             "hits": 27,
             "exact": 6,
-            "ppg": 0.89,
-            "hitRate": 0.614
+            "ppg": 0.87,
+            "hitRate": 0.6
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 20,
             "hits": 11,
             "exact": 4,
-            "ppg": 1.05,
-            "hitRate": 0.579
+            "ppg": 1,
+            "hitRate": 0.55
           },
           {
             "continent": "Africa",
@@ -17234,21 +17434,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 34,
             "hits": 26,
             "exact": 4,
-            "ppg": 0.77,
-            "hitRate": 0.591
+            "ppg": 0.76,
+            "hitRate": 0.578
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 23,
             "hits": 11,
             "exact": 5,
-            "ppg": 1.21,
-            "hitRate": 0.579
+            "ppg": 1.15,
+            "hitRate": 0.55
           },
           {
             "continent": "Africa",
@@ -17298,12 +17498,12 @@
         },
         "worst": {
           "continent": "Europe",
-          "games": 44,
+          "games": 45,
           "points": 34,
           "hits": 26,
           "exact": 4,
-          "ppg": 0.77,
-          "hitRate": 0.591
+          "ppg": 0.76,
+          "hitRate": 0.578
         }
       },
       {
@@ -17312,21 +17512,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 37,
             "hits": 27,
             "exact": 5,
-            "ppg": 0.84,
-            "hitRate": 0.614
+            "ppg": 0.82,
+            "hitRate": 0.6
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 14,
             "hits": 11,
             "exact": 1,
-            "ppg": 0.74,
-            "hitRate": 0.579
+            "ppg": 0.7,
+            "hitRate": 0.55
           },
           {
             "continent": "Africa",
@@ -17390,21 +17590,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 34,
             "hits": 24,
             "exact": 5,
-            "ppg": 0.77,
-            "hitRate": 0.545
+            "ppg": 0.76,
+            "hitRate": 0.533
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 18,
             "hits": 13,
             "exact": 2,
-            "ppg": 0.95,
-            "hitRate": 0.684
+            "ppg": 0.9,
+            "hitRate": 0.65
           },
           {
             "continent": "Africa",
@@ -17468,21 +17668,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 39,
             "hits": 25,
             "exact": 7,
-            "ppg": 0.89,
-            "hitRate": 0.568
+            "ppg": 0.87,
+            "hitRate": 0.556
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 22,
             "hits": 14,
             "exact": 3,
-            "ppg": 1.16,
-            "hitRate": 0.737
+            "ppg": 1.1,
+            "hitRate": 0.7
           },
           {
             "continent": "Africa",
@@ -17523,12 +17723,12 @@
         ],
         "best": {
           "continent": "South America",
-          "games": 19,
+          "games": 20,
           "points": 22,
           "hits": 14,
           "exact": 3,
-          "ppg": 1.16,
-          "hitRate": 0.737
+          "ppg": 1.1,
+          "hitRate": 0.7
         },
         "worst": {
           "continent": "Oceania",
@@ -17546,21 +17746,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 28,
             "hits": 26,
             "exact": 1,
-            "ppg": 0.64,
-            "hitRate": 0.591
+            "ppg": 0.62,
+            "hitRate": 0.578
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 18,
             "hits": 12,
             "exact": 2,
-            "ppg": 0.95,
-            "hitRate": 0.632
+            "ppg": 0.9,
+            "hitRate": 0.6
           },
           {
             "continent": "Africa",
@@ -17610,12 +17810,12 @@
         },
         "worst": {
           "continent": "Europe",
-          "games": 44,
+          "games": 45,
           "points": 28,
           "hits": 26,
           "exact": 1,
-          "ppg": 0.64,
-          "hitRate": 0.591
+          "ppg": 0.62,
+          "hitRate": 0.578
         }
       },
       {
@@ -17624,21 +17824,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 30,
             "hits": 24,
             "exact": 3,
-            "ppg": 0.68,
-            "hitRate": 0.545
+            "ppg": 0.67,
+            "hitRate": 0.533
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 18,
             "hits": 10,
             "exact": 3,
-            "ppg": 0.95,
-            "hitRate": 0.526
+            "ppg": 0.9,
+            "hitRate": 0.5
           },
           {
             "continent": "Africa",
@@ -17678,7 +17878,7 @@
           }
         ],
         "best": {
-          "continent": "South America",
+          "continent": "North America",
           "games": 19,
           "points": 18,
           "hits": 10,
@@ -17702,21 +17902,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 27,
             "hits": 25,
             "exact": 1,
-            "ppg": 0.61,
-            "hitRate": 0.568
+            "ppg": 0.6,
+            "hitRate": 0.556
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 24,
             "hits": 12,
             "exact": 5,
-            "ppg": 1.26,
-            "hitRate": 0.632
+            "ppg": 1.2,
+            "hitRate": 0.6
           },
           {
             "continent": "Africa",
@@ -17757,12 +17957,12 @@
         ],
         "best": {
           "continent": "South America",
-          "games": 19,
+          "games": 20,
           "points": 24,
           "hits": 12,
           "exact": 5,
-          "ppg": 1.26,
-          "hitRate": 0.632
+          "ppg": 1.2,
+          "hitRate": 0.6
         },
         "worst": {
           "continent": "Africa",
@@ -17780,21 +17980,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 35,
             "hits": 27,
             "exact": 4,
-            "ppg": 0.8,
-            "hitRate": 0.614
+            "ppg": 0.78,
+            "hitRate": 0.6
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 11,
             "hits": 8,
             "exact": 1,
-            "ppg": 0.58,
-            "hitRate": 0.421
+            "ppg": 0.55,
+            "hitRate": 0.4
           },
           {
             "continent": "Africa",
@@ -17858,21 +18058,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 29,
             "hits": 25,
             "exact": 2,
-            "ppg": 0.66,
-            "hitRate": 0.568
+            "ppg": 0.64,
+            "hitRate": 0.556
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 20,
             "hits": 12,
             "exact": 3,
-            "ppg": 1.05,
-            "hitRate": 0.632
+            "ppg": 1,
+            "hitRate": 0.6
           },
           {
             "continent": "Africa",
@@ -17913,21 +18113,21 @@
         ],
         "best": {
           "continent": "South America",
-          "games": 19,
+          "games": 20,
           "points": 20,
           "hits": 12,
           "exact": 3,
-          "ppg": 1.05,
-          "hitRate": 0.632
+          "ppg": 1,
+          "hitRate": 0.6
         },
         "worst": {
           "continent": "Europe",
-          "games": 44,
+          "games": 45,
           "points": 29,
           "hits": 25,
           "exact": 2,
-          "ppg": 0.66,
-          "hitRate": 0.568
+          "ppg": 0.64,
+          "hitRate": 0.556
         }
       },
       {
@@ -17936,21 +18136,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 32,
             "hits": 24,
             "exact": 4,
-            "ppg": 0.73,
-            "hitRate": 0.545
+            "ppg": 0.71,
+            "hitRate": 0.533
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 14,
             "hits": 11,
             "exact": 1,
-            "ppg": 0.74,
-            "hitRate": 0.579
+            "ppg": 0.7,
+            "hitRate": 0.55
           },
           {
             "continent": "Africa",
@@ -18014,21 +18214,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 36,
             "hits": 26,
             "exact": 5,
-            "ppg": 0.82,
-            "hitRate": 0.591
+            "ppg": 0.8,
+            "hitRate": 0.578
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 10,
             "hits": 8,
             "exact": 1,
-            "ppg": 0.53,
-            "hitRate": 0.421
+            "ppg": 0.5,
+            "hitRate": 0.4
           },
           {
             "continent": "Africa",
@@ -18078,12 +18278,12 @@
         },
         "worst": {
           "continent": "South America",
-          "games": 19,
+          "games": 20,
           "points": 10,
           "hits": 8,
           "exact": 1,
-          "ppg": 0.53,
-          "hitRate": 0.421
+          "ppg": 0.5,
+          "hitRate": 0.4
         }
       },
       {
@@ -18092,21 +18292,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 32,
             "hits": 24,
             "exact": 4,
-            "ppg": 0.73,
-            "hitRate": 0.545
+            "ppg": 0.71,
+            "hitRate": 0.533
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 15,
             "hits": 11,
             "exact": 2,
-            "ppg": 0.79,
-            "hitRate": 0.579
+            "ppg": 0.75,
+            "hitRate": 0.55
           },
           {
             "continent": "Africa",
@@ -18170,21 +18370,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 25,
             "hits": 21,
             "exact": 2,
-            "ppg": 0.57,
-            "hitRate": 0.477
+            "ppg": 0.56,
+            "hitRate": 0.467
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 18,
             "hits": 10,
             "exact": 3,
-            "ppg": 0.95,
-            "hitRate": 0.526
+            "ppg": 0.9,
+            "hitRate": 0.5
           },
           {
             "continent": "Africa",
@@ -18234,12 +18434,12 @@
         },
         "worst": {
           "continent": "Europe",
-          "games": 44,
+          "games": 45,
           "points": 25,
           "hits": 21,
           "exact": 2,
-          "ppg": 0.57,
-          "hitRate": 0.477
+          "ppg": 0.56,
+          "hitRate": 0.467
         }
       },
       {
@@ -18248,21 +18448,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 30,
             "hits": 24,
             "exact": 3,
-            "ppg": 0.68,
-            "hitRate": 0.545
+            "ppg": 0.67,
+            "hitRate": 0.533
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 13,
             "hits": 10,
             "exact": 1,
-            "ppg": 0.68,
-            "hitRate": 0.526
+            "ppg": 0.65,
+            "hitRate": 0.5
           },
           {
             "continent": "Africa",
@@ -18326,21 +18526,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 28,
             "hits": 24,
             "exact": 2,
-            "ppg": 0.64,
-            "hitRate": 0.545
+            "ppg": 0.62,
+            "hitRate": 0.533
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 15,
             "hits": 9,
             "exact": 2,
-            "ppg": 0.79,
-            "hitRate": 0.474
+            "ppg": 0.75,
+            "hitRate": 0.45
           },
           {
             "continent": "Africa",
@@ -18404,21 +18604,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 29,
             "hits": 23,
             "exact": 3,
-            "ppg": 0.66,
-            "hitRate": 0.523
+            "ppg": 0.64,
+            "hitRate": 0.511
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 15,
             "hits": 9,
             "exact": 2,
-            "ppg": 0.79,
-            "hitRate": 0.474
+            "ppg": 0.75,
+            "hitRate": 0.45
           },
           {
             "continent": "Africa",
@@ -18459,12 +18659,12 @@
         ],
         "best": {
           "continent": "South America",
-          "games": 19,
+          "games": 20,
           "points": 15,
           "hits": 9,
           "exact": 2,
-          "ppg": 0.79,
-          "hitRate": 0.474
+          "ppg": 0.75,
+          "hitRate": 0.45
         },
         "worst": {
           "continent": "Africa",
@@ -18482,21 +18682,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 29,
             "hits": 21,
             "exact": 4,
-            "ppg": 0.66,
-            "hitRate": 0.477
+            "ppg": 0.64,
+            "hitRate": 0.467
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 13,
             "hits": 7,
             "exact": 3,
-            "ppg": 0.68,
-            "hitRate": 0.368
+            "ppg": 0.65,
+            "hitRate": 0.35
           },
           {
             "continent": "Africa",
@@ -18560,21 +18760,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 20,
             "hits": 20,
             "exact": 0,
-            "ppg": 0.45,
-            "hitRate": 0.455
+            "ppg": 0.44,
+            "hitRate": 0.444
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 11,
             "hits": 8,
             "exact": 1,
-            "ppg": 0.58,
-            "hitRate": 0.421
+            "ppg": 0.55,
+            "hitRate": 0.4
           },
           {
             "continent": "Africa",
@@ -18624,12 +18824,12 @@
         },
         "worst": {
           "continent": "Europe",
-          "games": 44,
+          "games": 45,
           "points": 20,
           "hits": 20,
           "exact": 0,
-          "ppg": 0.45,
-          "hitRate": 0.455
+          "ppg": 0.44,
+          "hitRate": 0.444
         }
       },
       {
@@ -18638,21 +18838,21 @@
         "cells": [
           {
             "continent": "Europe",
-            "games": 44,
+            "games": 45,
             "points": 26,
             "hits": 18,
             "exact": 4,
-            "ppg": 0.59,
-            "hitRate": 0.409
+            "ppg": 0.58,
+            "hitRate": 0.4
           },
           {
             "continent": "South America",
-            "games": 19,
+            "games": 20,
             "points": 11,
             "hits": 8,
             "exact": 1,
-            "ppg": 0.58,
-            "hitRate": 0.421
+            "ppg": 0.55,
+            "hitRate": 0.4
           },
           {
             "continent": "Africa",
@@ -18715,182 +18915,182 @@
       {
         "name": "Eldad Yitzhak",
         "isMe": false,
-        "contrarianShare": 0.554,
+        "contrarianShare": 0.56,
         "contrarianHits": 25,
-        "contrarianPicks": 41,
+        "contrarianPicks": 42,
         "points": 76,
-        "hitRate": 0.649
+        "hitRate": 0.64
       },
       {
         "name": "Idan Nissel",
         "isMe": false,
-        "contrarianShare": 0.514,
+        "contrarianShare": 0.507,
         "contrarianHits": 25,
         "contrarianPicks": 38,
         "points": 71,
-        "hitRate": 0.622
+        "hitRate": 0.613
       },
       {
         "name": "Moran Weigler",
         "isMe": false,
-        "contrarianShare": 0.743,
+        "contrarianShare": 0.733,
         "contrarianHits": 38,
         "contrarianPicks": 55,
         "points": 65,
-        "hitRate": 0.635
+        "hitRate": 0.627
       },
       {
         "name": "Ran Artzi",
         "isMe": false,
-        "contrarianShare": 0.649,
+        "contrarianShare": 0.64,
         "contrarianHits": 28,
         "contrarianPicks": 48,
         "points": 63,
-        "hitRate": 0.622
+        "hitRate": 0.613
       },
       {
         "name": "Ido Richer",
         "isMe": false,
-        "contrarianShare": 0.635,
+        "contrarianShare": 0.64,
         "contrarianHits": 27,
-        "contrarianPicks": 47,
+        "contrarianPicks": 48,
         "points": 62,
-        "hitRate": 0.595
+        "hitRate": 0.587
       },
       {
         "name": "Shay Zamler",
         "isMe": false,
-        "contrarianShare": 0.595,
+        "contrarianShare": 0.6,
         "contrarianHits": 27,
-        "contrarianPicks": 44,
+        "contrarianPicks": 45,
         "points": 61,
-        "hitRate": 0.649
+        "hitRate": 0.64
       },
       {
         "name": "Ophir R",
         "isMe": false,
-        "contrarianShare": 0.703,
+        "contrarianShare": 0.707,
         "contrarianHits": 27,
-        "contrarianPicks": 52,
+        "contrarianPicks": 53,
         "points": 60,
-        "hitRate": 0.568
+        "hitRate": 0.56
       },
       {
         "name": "נועם זילברברג",
         "isMe": false,
-        "contrarianShare": 0.635,
+        "contrarianShare": 0.64,
         "contrarianHits": 27,
-        "contrarianPicks": 47,
+        "contrarianPicks": 48,
         "points": 59,
-        "hitRate": 0.568
+        "hitRate": 0.56
       },
       {
         "name": "עמיחי רוזנצוויג",
         "isMe": false,
-        "contrarianShare": 0.703,
+        "contrarianShare": 0.707,
         "contrarianHits": 29,
-        "contrarianPicks": 52,
+        "contrarianPicks": 53,
         "points": 58,
-        "hitRate": 0.595
+        "hitRate": 0.587
       },
       {
         "name": "Avi Lowenstein",
         "isMe": false,
-        "contrarianShare": 0.554,
+        "contrarianShare": 0.56,
         "contrarianHits": 20,
-        "contrarianPicks": 41,
+        "contrarianPicks": 42,
         "points": 58,
-        "hitRate": 0.581
+        "hitRate": 0.573
       },
       {
         "name": "Liad Scharf",
         "isMe": false,
-        "contrarianShare": 0.608,
+        "contrarianShare": 0.6,
         "contrarianHits": 20,
         "contrarianPicks": 45,
         "points": 56,
-        "hitRate": 0.568
+        "hitRate": 0.56
       },
       {
         "name": "Ishay Mamluk",
         "isMe": true,
-        "contrarianShare": 0.703,
+        "contrarianShare": 0.707,
         "contrarianHits": 27,
-        "contrarianPicks": 52,
+        "contrarianPicks": 53,
         "points": 55,
-        "hitRate": 0.554
+        "hitRate": 0.547
       },
       {
         "name": "Tomer Yekutiel",
         "isMe": false,
-        "contrarianShare": 0.608,
+        "contrarianShare": 0.613,
         "contrarianHits": 23,
-        "contrarianPicks": 45,
+        "contrarianPicks": 46,
         "points": 55,
-        "hitRate": 0.568
+        "hitRate": 0.56
       },
       {
         "name": "Bino Bepita",
         "isMe": false,
-        "contrarianShare": 0.568,
+        "contrarianShare": 0.56,
         "contrarianHits": 22,
         "contrarianPicks": 42,
         "points": 54,
-        "hitRate": 0.541
+        "hitRate": 0.533
       },
       {
         "name": "Yair Sandberg",
         "isMe": false,
-        "contrarianShare": 0.838,
+        "contrarianShare": 0.84,
         "contrarianHits": 33,
-        "contrarianPicks": 62,
+        "contrarianPicks": 63,
         "points": 53,
-        "hitRate": 0.568
+        "hitRate": 0.56
       },
       {
         "name": "oded wertheim",
         "isMe": false,
-        "contrarianShare": 0.5,
+        "contrarianShare": 0.507,
         "contrarianHits": 18,
-        "contrarianPicks": 37,
+        "contrarianPicks": 38,
         "points": 52,
-        "hitRate": 0.527
+        "hitRate": 0.52
       },
       {
         "name": "אבי גבאי",
         "isMe": false,
-        "contrarianShare": 0.635,
+        "contrarianShare": 0.64,
         "contrarianHits": 25,
-        "contrarianPicks": 47,
+        "contrarianPicks": 48,
         "points": 49,
-        "hitRate": 0.527
+        "hitRate": 0.52
       },
       {
         "name": "הקוף",
         "isMe": false,
-        "contrarianShare": 0.946,
+        "contrarianShare": 0.947,
         "contrarianHits": 31,
-        "contrarianPicks": 70,
+        "contrarianPicks": 71,
         "points": 46,
-        "hitRate": 0.446
+        "hitRate": 0.44
       },
       {
         "name": "Shai Silverberg",
         "isMe": false,
-        "contrarianShare": 0.797,
+        "contrarianShare": 0.787,
         "contrarianHits": 29,
         "contrarianPicks": 59,
         "points": 46,
-        "hitRate": 0.514
+        "hitRate": 0.507
       },
       {
         "name": "Gilad Brand",
         "isMe": false,
-        "contrarianShare": 0.73,
+        "contrarianShare": 0.733,
         "contrarianHits": 18,
-        "contrarianPicks": 54,
+        "contrarianPicks": 55,
         "points": 45,
-        "hitRate": 0.392
+        "hitRate": 0.387
       }
     ],
     "bravery": [
@@ -18898,200 +19098,200 @@
         "name": "Eldad Yitzhak",
         "isMe": false,
         "avgGoals": 2.69,
-        "boldShare": 0.581,
-        "drawShare": 0.122,
+        "boldShare": 0.587,
+        "drawShare": 0.12,
         "points": 76,
-        "hitRate": 0.649,
+        "hitRate": 0.64,
         "exact": 13
       },
       {
         "name": "Idan Nissel",
         "isMe": false,
         "avgGoals": 2.16,
-        "boldShare": 0.689,
-        "drawShare": 0.081,
+        "boldShare": 0.693,
+        "drawShare": 0.08,
         "points": 71,
-        "hitRate": 0.622,
+        "hitRate": 0.613,
         "exact": 11
       },
       {
         "name": "Moran Weigler",
         "isMe": false,
-        "avgGoals": 2.58,
-        "boldShare": 0.595,
-        "drawShare": 0.149,
+        "avgGoals": 2.57,
+        "boldShare": 0.6,
+        "drawShare": 0.147,
         "points": 65,
-        "hitRate": 0.635,
+        "hitRate": 0.627,
         "exact": 8
       },
       {
         "name": "Ran Artzi",
         "isMe": false,
-        "avgGoals": 2.73,
-        "boldShare": 0.473,
-        "drawShare": 0.216,
+        "avgGoals": 2.72,
+        "boldShare": 0.48,
+        "drawShare": 0.213,
         "points": 63,
-        "hitRate": 0.622,
+        "hitRate": 0.613,
         "exact": 8
       },
       {
         "name": "Ido Richer",
         "isMe": false,
         "avgGoals": 2.68,
-        "boldShare": 0.405,
-        "drawShare": 0.257,
+        "boldShare": 0.4,
+        "drawShare": 0.253,
         "points": 62,
-        "hitRate": 0.595,
+        "hitRate": 0.587,
         "exact": 8
       },
       {
         "name": "Shay Zamler",
         "isMe": false,
         "avgGoals": 2.68,
-        "boldShare": 0.405,
-        "drawShare": 0.095,
+        "boldShare": 0.4,
+        "drawShare": 0.093,
         "points": 61,
-        "hitRate": 0.649,
+        "hitRate": 0.64,
         "exact": 5
       },
       {
         "name": "Ophir R",
         "isMe": false,
         "avgGoals": 2.61,
-        "boldShare": 0.5,
-        "drawShare": 0.162,
+        "boldShare": 0.507,
+        "drawShare": 0.16,
         "points": 60,
-        "hitRate": 0.568,
+        "hitRate": 0.56,
         "exact": 7
       },
       {
         "name": "נועם זילברברג",
         "isMe": false,
-        "avgGoals": 2.66,
-        "boldShare": 0.527,
-        "drawShare": 0.149,
+        "avgGoals": 2.67,
+        "boldShare": 0.533,
+        "drawShare": 0.147,
         "points": 59,
-        "hitRate": 0.568,
+        "hitRate": 0.56,
         "exact": 7
       },
       {
         "name": "עמיחי רוזנצוויג",
         "isMe": false,
-        "avgGoals": 2.88,
-        "boldShare": 0.595,
-        "drawShare": 0.176,
+        "avgGoals": 2.89,
+        "boldShare": 0.6,
+        "drawShare": 0.173,
         "points": 58,
-        "hitRate": 0.595,
+        "hitRate": 0.587,
         "exact": 6
       },
       {
         "name": "Avi Lowenstein",
         "isMe": false,
         "avgGoals": 2.64,
-        "boldShare": 0.514,
-        "drawShare": 0.162,
+        "boldShare": 0.507,
+        "drawShare": 0.16,
         "points": 58,
-        "hitRate": 0.581,
+        "hitRate": 0.573,
         "exact": 6
       },
       {
         "name": "Liad Scharf",
         "isMe": false,
-        "avgGoals": 2.62,
-        "boldShare": 0.5,
-        "drawShare": 0.108,
+        "avgGoals": 2.61,
+        "boldShare": 0.507,
+        "drawShare": 0.107,
         "points": 56,
-        "hitRate": 0.568,
+        "hitRate": 0.56,
         "exact": 6
       },
       {
         "name": "Ishay Mamluk",
         "isMe": true,
         "avgGoals": 3.08,
-        "boldShare": 0.514,
-        "drawShare": 0.203,
+        "boldShare": 0.507,
+        "drawShare": 0.2,
         "points": 55,
-        "hitRate": 0.554,
+        "hitRate": 0.547,
         "exact": 7
       },
       {
         "name": "Tomer Yekutiel",
         "isMe": false,
-        "avgGoals": 2.99,
-        "boldShare": 0.473,
-        "drawShare": 0.203,
+        "avgGoals": 3,
+        "boldShare": 0.48,
+        "drawShare": 0.2,
         "points": 55,
-        "hitRate": 0.568,
+        "hitRate": 0.56,
         "exact": 6
       },
       {
         "name": "Bino Bepita",
         "isMe": false,
-        "avgGoals": 2.54,
-        "boldShare": 0.432,
-        "drawShare": 0.176,
+        "avgGoals": 2.53,
+        "boldShare": 0.44,
+        "drawShare": 0.173,
         "points": 54,
-        "hitRate": 0.541,
+        "hitRate": 0.533,
         "exact": 6
       },
       {
         "name": "Yair Sandberg",
         "isMe": false,
-        "avgGoals": 3.26,
-        "boldShare": 0.581,
-        "drawShare": 0.108,
+        "avgGoals": 3.25,
+        "boldShare": 0.573,
+        "drawShare": 0.107,
         "points": 53,
-        "hitRate": 0.568,
+        "hitRate": 0.56,
         "exact": 5
       },
       {
         "name": "oded wertheim",
         "isMe": false,
-        "avgGoals": 2.59,
-        "boldShare": 0.473,
-        "drawShare": 0.189,
+        "avgGoals": 2.6,
+        "boldShare": 0.467,
+        "drawShare": 0.187,
         "points": 52,
-        "hitRate": 0.527,
+        "hitRate": 0.52,
         "exact": 5
       },
       {
         "name": "אבי גבאי",
         "isMe": false,
         "avgGoals": 2.57,
-        "boldShare": 0.514,
-        "drawShare": 0.135,
+        "boldShare": 0.52,
+        "drawShare": 0.133,
         "points": 49,
-        "hitRate": 0.527,
+        "hitRate": 0.52,
         "exact": 4
       },
       {
         "name": "הקוף",
         "isMe": false,
-        "avgGoals": 3.3,
-        "boldShare": 0.486,
-        "drawShare": 0.216,
+        "avgGoals": 3.27,
+        "boldShare": 0.48,
+        "drawShare": 0.213,
         "points": 46,
-        "hitRate": 0.446,
+        "hitRate": 0.44,
         "exact": 6
       },
       {
         "name": "Shai Silverberg",
         "isMe": false,
-        "avgGoals": 3.18,
-        "boldShare": 0.5,
-        "drawShare": 0.162,
+        "avgGoals": 3.16,
+        "boldShare": 0.507,
+        "drawShare": 0.16,
         "points": 46,
-        "hitRate": 0.514,
+        "hitRate": 0.507,
         "exact": 3
       },
       {
         "name": "Gilad Brand",
         "isMe": false,
-        "avgGoals": 2.24,
-        "boldShare": 0.311,
-        "drawShare": 0.297,
+        "avgGoals": 2.27,
+        "boldShare": 0.32,
+        "drawShare": 0.293,
         "points": 45,
-        "hitRate": 0.392,
+        "hitRate": 0.387,
         "exact": 7
       }
     ],
@@ -19161,6 +19361,22 @@
         "scorers": []
       },
       {
+        "gameID": 78,
+        "date": "2026-06-29",
+        "actual": "1-1",
+        "s1": 1,
+        "s2": 1,
+        "aName": "גרמניה",
+        "bName": "פרגוואי",
+        "continents": [
+          "Europe",
+          "South America"
+        ],
+        "groupHitRate": 0,
+        "groupExactRate": 0,
+        "scorers": []
+      },
+      {
         "gameID": 6,
         "date": "2026-06-13",
         "actual": "1-1",
@@ -19180,29 +19396,6 @@
             "pa": 1,
             "pb": 1,
             "outcome": 3
-          }
-        ]
-      },
-      {
-        "gameID": 60,
-        "date": "2026-06-26",
-        "actual": "3-2",
-        "s1": 3,
-        "s2": 2,
-        "aName": "טורקיה",
-        "bName": "ארה\"ב",
-        "continents": [
-          "Europe",
-          "North America"
-        ],
-        "groupHitRate": 0.05,
-        "groupExactRate": 0,
-        "scorers": [
-          {
-            "name": "Eldad Yitzhak",
-            "pa": 2,
-            "pb": 1,
-            "outcome": 2
           }
         ]
       }
@@ -20270,17 +20463,17 @@
           15,
           16,
           27,
-          15,
-          20,
+          16,
+          21,
           16,
           24,
-          30,
-          26,
+          29,
+          25,
           27,
           24,
           12,
-          22,
-          18,
+          21,
+          19,
           3,
           23,
           19
@@ -20288,243 +20481,243 @@
         [
           32,
           100,
-          28,
-          23,
-          22,
+          29,
+          24,
+          21,
           20,
           23,
           24,
-          22,
-          30,
-          28,
+          21,
+          29,
+          29,
           23,
           28,
-          28,
+          29,
           11,
           35,
-          18,
+          17,
           0,
-          15,
+          16,
           15
         ],
         [
           19,
-          28,
+          29,
           100,
-          27,
-          14,
+          28,
+          13,
           15,
           16,
           15,
           11,
           16,
-          14,
+          15,
           20,
           23,
-          16,
+          17,
           8,
           19,
           20,
           5,
-          8,
+          9,
           15
         ],
         [
           15,
-          23,
-          27,
+          24,
+          28,
           100,
           19,
           19,
           20,
           15,
-          26,
-          18,
-          18,
-          18,
+          25,
+          17,
+          19,
+          17,
           16,
-          22,
+          23,
           8,
           19,
           23,
           7,
-          15,
+          16,
           19
         ],
         [
           16,
-          22,
-          14,
+          21,
+          13,
           19,
           100,
-          23,
-          18,
+          24,
+          17,
           23,
           12,
-          20,
+          21,
           16,
-          9,
-          18,
-          28,
-          9,
-          24,
-          20,
-          18,
           11,
-          14
+          17,
+          28,
+          11,
+          25,
+          20,
+          17,
+          11,
+          13
         ],
         [
           27,
           20,
           15,
           19,
-          23,
+          24,
           100,
           24,
-          22,
+          21,
           15,
-          35,
+          36,
           28,
-          26,
           27,
-          26,
-          14,
-          26,
+          27,
+          25,
+          15,
+          27,
           16,
           0,
           16,
-          18
+          17
         ],
         [
-          15,
+          16,
           23,
           16,
           20,
-          18,
+          17,
           24,
           100,
-          14,
-          14,
-          14,
+          15,
+          13,
+          13,
           23,
           15,
           19,
           24,
           15,
           16,
-          15,
+          16,
           5,
           11,
           20
         ],
         [
-          20,
+          21,
           24,
           15,
           15,
           23,
-          22,
-          14,
+          21,
+          15,
           100,
           9,
-          22,
+          21,
           19,
-          18,
+          17,
           16,
           16,
           11,
-          22,
-          18,
-          18,
+          21,
+          19,
+          17,
           16,
           15
         ],
         [
           16,
-          22,
+          21,
           11,
-          26,
+          25,
           12,
           15,
-          14,
+          13,
           9,
           100,
           23,
           19,
-          14,
+          13,
           19,
           15,
-          14,
-          18,
+          13,
+          17,
           16,
           5,
           15,
-          14
+          15
         ],
         [
           24,
-          30,
+          29,
           16,
-          18,
-          20,
-          35,
-          14,
-          22,
+          17,
+          21,
+          36,
+          13,
+          21,
           23,
           100,
-          22,
-          26,
-          30,
-          22,
-          18,
-          32,
-          18,
+          21,
+          27,
+          29,
+          21,
+          19,
+          33,
+          17,
           1,
-          18,
+          17,
           20
         ],
         [
-          30,
-          28,
-          14,
-          18,
+          29,
+          29,
+          15,
+          19,
           16,
           28,
           23,
           19,
           19,
-          22,
+          21,
           100,
-          22,
-          22,
-          18,
-          18,
-          30,
+          21,
+          21,
+          19,
+          17,
+          29,
           20,
           8,
-          12,
-          22
+          13,
+          21
         ],
         [
-          26,
+          25,
           23,
           20,
-          18,
-          9,
-          26,
+          17,
+          11,
+          27,
           15,
-          18,
-          14,
-          26,
-          22,
+          17,
+          13,
+          27,
+          21,
           100,
-          26,
+          25,
           20,
-          20,
-          16,
-          18,
+          21,
+          17,
+          17,
           8,
-          14,
+          13,
           11
         ],
         [
@@ -20532,43 +20725,43 @@
           28,
           23,
           16,
-          18,
+          17,
           27,
           19,
           16,
           19,
-          30,
-          22,
-          26,
+          29,
+          21,
+          25,
           100,
           24,
           24,
           28,
           20,
           3,
-          14,
-          14
+          13,
+          13
         ],
         [
           24,
+          29,
+          17,
+          23,
           28,
-          16,
-          22,
-          28,
-          26,
+          25,
           24,
           16,
           15,
-          22,
-          18,
+          21,
+          19,
           20,
           24,
           100,
           5,
           32,
-          26,
-          18,
-          12,
+          25,
+          17,
+          13,
           24
         ],
         [
@@ -20576,64 +20769,64 @@
           11,
           8,
           8,
-          9,
-          14,
+          11,
+          15,
           15,
           11,
-          14,
-          18,
-          18,
-          20,
+          13,
+          19,
+          17,
+          21,
           24,
           5,
           100,
-          9,
+          11,
           12,
           9,
           8,
           9
         ],
         [
-          22,
+          21,
           35,
           19,
           19,
-          24,
-          26,
+          25,
+          27,
           16,
-          22,
-          18,
-          32,
-          30,
-          16,
+          21,
+          17,
+          33,
+          29,
+          17,
           28,
           32,
-          9,
+          11,
           100,
           28,
           11,
-          14,
+          13,
           15
         ],
         [
-          18,
-          18,
+          19,
+          17,
           20,
           23,
           20,
           16,
-          15,
-          18,
           16,
-          18,
+          19,
+          16,
+          17,
           20,
-          18,
+          17,
           20,
-          26,
+          25,
           12,
           28,
           100,
-          14,
+          13,
           8,
           15
         ],
@@ -20642,40 +20835,40 @@
           0,
           5,
           7,
-          18,
+          17,
           0,
           5,
-          18,
+          17,
           5,
           1,
           8,
           8,
           3,
-          18,
+          17,
           9,
           11,
-          14,
+          13,
           100,
           3,
           9
         ],
         [
           23,
-          15,
-          8,
-          15,
-          11,
+          16,
+          9,
           16,
           11,
           16,
+          11,
+          16,
           15,
-          18,
-          12,
-          14,
-          14,
-          12,
+          17,
+          13,
+          13,
+          13,
+          13,
           8,
-          14,
+          13,
           8,
           3,
           100,
@@ -20686,15 +20879,15 @@
           15,
           15,
           19,
-          14,
-          18,
+          13,
+          17,
           20,
           15,
-          14,
+          15,
           20,
-          22,
+          21,
           11,
-          14,
+          13,
           24,
           9,
           15,
@@ -20713,13 +20906,13 @@
         "totalScore": 76,
         "winner": "צרפת",
         "topScorer": "הארי קיין",
-        "played": 74,
+        "played": 75,
         "exact": 13,
         "partial": 35,
-        "miss": 26,
+        "miss": 27,
         "points": 76,
-        "hitRate": 0.649,
-        "exactRate": 0.176,
+        "hitRate": 0.64,
+        "exactRate": 0.173,
         "sharpness": 0.271,
         "bestDay": {
           "date": "2026-06-15",
@@ -20744,8 +20937,8 @@
           "hitRate": 0.5
         },
         "avgGoals": 2.69,
-        "boldShare": 0.581,
-        "contrarianShare": 0.554,
+        "boldShare": 0.587,
+        "contrarianShare": 0.56,
         "signature": {
           "rate": 0.05,
           "match": "ר.ד קונגו 3–1 אוזבקיסטן",
@@ -20760,13 +20953,13 @@
         "totalScore": 71,
         "winner": "אנגליה",
         "topScorer": "עוסמאן דמבלה",
-        "played": 74,
+        "played": 75,
         "exact": 11,
         "partial": 35,
-        "miss": 28,
+        "miss": 29,
         "points": 71,
-        "hitRate": 0.622,
-        "exactRate": 0.149,
+        "hitRate": 0.613,
+        "exactRate": 0.147,
         "sharpness": 0.239,
         "bestDay": {
           "date": "2026-06-24",
@@ -20783,16 +20976,16 @@
         },
         "worstRegion": {
           "continent": "Europe",
-          "games": 44,
+          "games": 45,
           "points": 34,
           "hits": 26,
           "exact": 4,
-          "ppg": 0.77,
-          "hitRate": 0.591
+          "ppg": 0.76,
+          "hitRate": 0.578
         },
         "avgGoals": 2.16,
-        "boldShare": 0.689,
-        "contrarianShare": 0.514,
+        "boldShare": 0.693,
+        "contrarianShare": 0.507,
         "signature": {
           "rate": 0.1,
           "match": "מקסיקו 1–0 דרום קוריאה",
@@ -20807,13 +21000,13 @@
         "totalScore": 65,
         "winner": "צרפת",
         "topScorer": "הארי קיין",
-        "played": 74,
+        "played": 75,
         "exact": 8,
         "partial": 39,
-        "miss": 27,
+        "miss": 28,
         "points": 65,
-        "hitRate": 0.635,
-        "exactRate": 0.108,
+        "hitRate": 0.627,
+        "exactRate": 0.107,
         "sharpness": 0.17,
         "bestDay": {
           "date": "2026-06-27",
@@ -20837,9 +21030,9 @@
           "ppg": 0.67,
           "hitRate": 0.333
         },
-        "avgGoals": 2.58,
-        "boldShare": 0.595,
-        "contrarianShare": 0.743,
+        "avgGoals": 2.57,
+        "boldShare": 0.6,
+        "contrarianShare": 0.733,
         "signature": {
           "rate": 0.1,
           "match": "תוניסיה 1–3 הולנד",
@@ -20854,13 +21047,13 @@
         "totalScore": 63,
         "winner": "צרפת",
         "topScorer": "קיליאן אמבפה",
-        "played": 74,
+        "played": 75,
         "exact": 8,
         "partial": 38,
-        "miss": 28,
+        "miss": 29,
         "points": 63,
-        "hitRate": 0.622,
-        "exactRate": 0.108,
+        "hitRate": 0.613,
+        "exactRate": 0.107,
         "sharpness": 0.174,
         "bestDay": {
           "date": "2026-06-27",
@@ -20884,9 +21077,9 @@
           "ppg": 0.5,
           "hitRate": 0.5
         },
-        "avgGoals": 2.73,
-        "boldShare": 0.473,
-        "contrarianShare": 0.649,
+        "avgGoals": 2.72,
+        "boldShare": 0.48,
+        "contrarianShare": 0.64,
         "signature": {
           "rate": 0.1,
           "match": "גאנה 1–0 פנמה",
@@ -20901,13 +21094,13 @@
         "totalScore": 62,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
-        "played": 74,
+        "played": 75,
         "exact": 8,
         "partial": 36,
-        "miss": 30,
+        "miss": 31,
         "points": 62,
-        "hitRate": 0.595,
-        "exactRate": 0.108,
+        "hitRate": 0.587,
+        "exactRate": 0.107,
         "sharpness": 0.182,
         "bestDay": {
           "date": "2026-06-27",
@@ -20915,12 +21108,12 @@
         },
         "bestRegion": {
           "continent": "South America",
-          "games": 19,
+          "games": 20,
           "points": 22,
           "hits": 14,
           "exact": 3,
-          "ppg": 1.16,
-          "hitRate": 0.737
+          "ppg": 1.1,
+          "hitRate": 0.7
         },
         "worstRegion": {
           "continent": "Oceania",
@@ -20932,8 +21125,8 @@
           "hitRate": 0.5
         },
         "avgGoals": 2.68,
-        "boldShare": 0.405,
-        "contrarianShare": 0.635,
+        "boldShare": 0.4,
+        "contrarianShare": 0.64,
         "signature": {
           "rate": 0.05,
           "match": "צ'כיה 1–1 דרום אפריקה",
@@ -20948,13 +21141,13 @@
         "totalScore": 61,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
-        "played": 74,
+        "played": 75,
         "exact": 5,
         "partial": 43,
-        "miss": 26,
+        "miss": 27,
         "points": 61,
-        "hitRate": 0.649,
-        "exactRate": 0.068,
+        "hitRate": 0.64,
+        "exactRate": 0.067,
         "sharpness": 0.104,
         "bestDay": {
           "date": "2026-06-20",
@@ -20971,16 +21164,16 @@
         },
         "worstRegion": {
           "continent": "Europe",
-          "games": 44,
+          "games": 45,
           "points": 28,
           "hits": 26,
           "exact": 1,
-          "ppg": 0.64,
-          "hitRate": 0.591
+          "ppg": 0.62,
+          "hitRate": 0.578
         },
         "avgGoals": 2.68,
-        "boldShare": 0.405,
-        "contrarianShare": 0.595,
+        "boldShare": 0.4,
+        "contrarianShare": 0.6,
         "signature": {
           "rate": 0.1,
           "match": "גאנה 1–0 פנמה",
@@ -20995,20 +21188,20 @@
         "totalScore": 60,
         "winner": "צרפת",
         "topScorer": "קיליאן אמבפה",
-        "played": 74,
+        "played": 75,
         "exact": 7,
         "partial": 35,
-        "miss": 32,
+        "miss": 33,
         "points": 60,
-        "hitRate": 0.568,
-        "exactRate": 0.095,
+        "hitRate": 0.56,
+        "exactRate": 0.093,
         "sharpness": 0.167,
         "bestDay": {
           "date": "2026-06-27",
           "points": 8
         },
         "bestRegion": {
-          "continent": "South America",
+          "continent": "North America",
           "games": 19,
           "points": 18,
           "hits": 10,
@@ -21026,8 +21219,8 @@
           "hitRate": 0.5
         },
         "avgGoals": 2.61,
-        "boldShare": 0.5,
-        "contrarianShare": 0.703,
+        "boldShare": 0.507,
+        "contrarianShare": 0.707,
         "signature": {
           "rate": 0.05,
           "match": "דרום קוריאה 2–1 צ'כיה",
@@ -21042,13 +21235,13 @@
         "totalScore": 59,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
-        "played": 74,
+        "played": 75,
         "exact": 7,
         "partial": 35,
-        "miss": 32,
+        "miss": 33,
         "points": 59,
-        "hitRate": 0.568,
-        "exactRate": 0.095,
+        "hitRate": 0.56,
+        "exactRate": 0.093,
         "sharpness": 0.167,
         "bestDay": {
           "date": "2026-06-17",
@@ -21056,12 +21249,12 @@
         },
         "bestRegion": {
           "continent": "South America",
-          "games": 19,
+          "games": 20,
           "points": 24,
           "hits": 12,
           "exact": 5,
-          "ppg": 1.26,
-          "hitRate": 0.632
+          "ppg": 1.2,
+          "hitRate": 0.6
         },
         "worstRegion": {
           "continent": "Africa",
@@ -21072,9 +21265,9 @@
           "ppg": 0.58,
           "hitRate": 0.484
         },
-        "avgGoals": 2.66,
-        "boldShare": 0.527,
-        "contrarianShare": 0.635,
+        "avgGoals": 2.67,
+        "boldShare": 0.533,
+        "contrarianShare": 0.64,
         "signature": {
           "rate": 0.1,
           "match": "אוזבקיסטן 1–3 קולומביה",
@@ -21089,13 +21282,13 @@
         "totalScore": 58,
         "winner": "ברזיל",
         "topScorer": "קיליאן אמבפה",
-        "played": 74,
+        "played": 75,
         "exact": 6,
         "partial": 38,
-        "miss": 30,
+        "miss": 31,
         "points": 58,
-        "hitRate": 0.595,
-        "exactRate": 0.081,
+        "hitRate": 0.587,
+        "exactRate": 0.08,
         "sharpness": 0.136,
         "bestDay": {
           "date": "2026-06-27",
@@ -21119,9 +21312,9 @@
           "ppg": 0.5,
           "hitRate": 0.5
         },
-        "avgGoals": 2.88,
-        "boldShare": 0.595,
-        "contrarianShare": 0.703,
+        "avgGoals": 2.89,
+        "boldShare": 0.6,
+        "contrarianShare": 0.707,
         "signature": {
           "rate": 0.1,
           "match": "בלגיה 1–1 מצרים",
@@ -21136,13 +21329,13 @@
         "totalScore": 58,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
-        "played": 74,
+        "played": 75,
         "exact": 6,
         "partial": 37,
-        "miss": 31,
+        "miss": 32,
         "points": 58,
-        "hitRate": 0.581,
-        "exactRate": 0.081,
+        "hitRate": 0.573,
+        "exactRate": 0.08,
         "sharpness": 0.14,
         "bestDay": {
           "date": "2026-06-27",
@@ -21150,25 +21343,25 @@
         },
         "bestRegion": {
           "continent": "South America",
-          "games": 19,
+          "games": 20,
           "points": 20,
           "hits": 12,
           "exact": 3,
-          "ppg": 1.05,
-          "hitRate": 0.632
+          "ppg": 1,
+          "hitRate": 0.6
         },
         "worstRegion": {
           "continent": "Europe",
-          "games": 44,
+          "games": 45,
           "points": 29,
           "hits": 25,
           "exact": 2,
-          "ppg": 0.66,
-          "hitRate": 0.568
+          "ppg": 0.64,
+          "hitRate": 0.556
         },
         "avgGoals": 2.64,
-        "boldShare": 0.514,
-        "contrarianShare": 0.554,
+        "boldShare": 0.507,
+        "contrarianShare": 0.56,
         "signature": {
           "rate": 0.1,
           "match": "ערב הסעודית 1–1 אורוגוואי",
@@ -21183,13 +21376,13 @@
         "totalScore": 56,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
-        "played": 74,
+        "played": 75,
         "exact": 6,
         "partial": 36,
-        "miss": 32,
+        "miss": 33,
         "points": 56,
-        "hitRate": 0.568,
-        "exactRate": 0.081,
+        "hitRate": 0.56,
+        "exactRate": 0.08,
         "sharpness": 0.143,
         "bestDay": {
           "date": "2026-06-27",
@@ -21213,9 +21406,9 @@
           "ppg": 0.33,
           "hitRate": 0.333
         },
-        "avgGoals": 2.62,
-        "boldShare": 0.5,
-        "contrarianShare": 0.608,
+        "avgGoals": 2.61,
+        "boldShare": 0.507,
+        "contrarianShare": 0.6,
         "signature": {
           "rate": 0.1,
           "match": "יפן 1–1 שוודיה",
@@ -21230,13 +21423,13 @@
         "totalScore": 55,
         "winner": "ארגנטינה",
         "topScorer": "מיקל אויארסבאל",
-        "played": 74,
+        "played": 75,
         "exact": 7,
         "partial": 34,
-        "miss": 33,
+        "miss": 34,
         "points": 55,
-        "hitRate": 0.554,
-        "exactRate": 0.095,
+        "hitRate": 0.547,
+        "exactRate": 0.093,
         "sharpness": 0.171,
         "bestDay": {
           "date": "2026-06-24",
@@ -21253,16 +21446,16 @@
         },
         "worstRegion": {
           "continent": "South America",
-          "games": 19,
+          "games": 20,
           "points": 10,
           "hits": 8,
           "exact": 1,
-          "ppg": 0.53,
-          "hitRate": 0.421
+          "ppg": 0.5,
+          "hitRate": 0.4
         },
         "avgGoals": 3.08,
-        "boldShare": 0.514,
-        "contrarianShare": 0.703,
+        "boldShare": 0.507,
+        "contrarianShare": 0.707,
         "signature": {
           "rate": 0.15,
           "match": "הולנד 2–2 יפן",
@@ -21277,13 +21470,13 @@
         "totalScore": 55,
         "winner": "ספרד",
         "topScorer": "למין יאמאל",
-        "played": 74,
+        "played": 75,
         "exact": 6,
         "partial": 36,
-        "miss": 32,
+        "miss": 33,
         "points": 55,
-        "hitRate": 0.568,
-        "exactRate": 0.081,
+        "hitRate": 0.56,
+        "exactRate": 0.08,
         "sharpness": 0.143,
         "bestDay": {
           "date": "2026-06-14",
@@ -21307,9 +21500,9 @@
           "ppg": 0.58,
           "hitRate": 0.484
         },
-        "avgGoals": 2.99,
-        "boldShare": 0.473,
-        "contrarianShare": 0.608,
+        "avgGoals": 3,
+        "boldShare": 0.48,
+        "contrarianShare": 0.613,
         "signature": {
           "rate": 0.15,
           "match": "האיטי 0–1 סקוטלנד",
@@ -21324,13 +21517,13 @@
         "totalScore": 54,
         "winner": "ספרד",
         "topScorer": "עוסמאן דמבלה",
-        "played": 74,
+        "played": 75,
         "exact": 6,
         "partial": 34,
-        "miss": 34,
+        "miss": 35,
         "points": 54,
-        "hitRate": 0.541,
-        "exactRate": 0.081,
+        "hitRate": 0.533,
+        "exactRate": 0.08,
         "sharpness": 0.15,
         "bestDay": {
           "date": "2026-06-24",
@@ -21347,16 +21540,16 @@
         },
         "worstRegion": {
           "continent": "Europe",
-          "games": 44,
+          "games": 45,
           "points": 25,
           "hits": 21,
           "exact": 2,
-          "ppg": 0.57,
-          "hitRate": 0.477
+          "ppg": 0.56,
+          "hitRate": 0.467
         },
-        "avgGoals": 2.54,
-        "boldShare": 0.432,
-        "contrarianShare": 0.568,
+        "avgGoals": 2.53,
+        "boldShare": 0.44,
+        "contrarianShare": 0.56,
         "signature": {
           "rate": 0.15,
           "match": "קולומביה 1–0 ר.ד קונגו",
@@ -21371,13 +21564,13 @@
         "totalScore": 53,
         "winner": "צרפת",
         "topScorer": "קיליאן אמבפה",
-        "played": 74,
+        "played": 75,
         "exact": 5,
         "partial": 37,
-        "miss": 32,
+        "miss": 33,
         "points": 53,
-        "hitRate": 0.568,
-        "exactRate": 0.068,
+        "hitRate": 0.56,
+        "exactRate": 0.067,
         "sharpness": 0.119,
         "bestDay": {
           "date": "2026-06-27",
@@ -21401,9 +21594,9 @@
           "ppg": 0.6,
           "hitRate": 0.48
         },
-        "avgGoals": 3.26,
-        "boldShare": 0.581,
-        "contrarianShare": 0.838,
+        "avgGoals": 3.25,
+        "boldShare": 0.573,
+        "contrarianShare": 0.84,
         "signature": {
           "rate": 0.05,
           "match": "נורווגיה 1–4 צרפת",
@@ -21418,13 +21611,13 @@
         "totalScore": 52,
         "winner": "אנגליה",
         "topScorer": "הארי קיין",
-        "played": 74,
+        "played": 75,
         "exact": 5,
         "partial": 34,
-        "miss": 35,
+        "miss": 36,
         "points": 52,
-        "hitRate": 0.527,
-        "exactRate": 0.068,
+        "hitRate": 0.52,
+        "exactRate": 0.067,
         "sharpness": 0.128,
         "bestDay": {
           "date": "2026-06-20",
@@ -21448,9 +21641,9 @@
           "ppg": 0.58,
           "hitRate": 0.419
         },
-        "avgGoals": 2.59,
-        "boldShare": 0.473,
-        "contrarianShare": 0.5,
+        "avgGoals": 2.6,
+        "boldShare": 0.467,
+        "contrarianShare": 0.507,
         "signature": {
           "rate": 0.1,
           "match": "ארה\"ב 4–1 פרגוואי",
@@ -21465,13 +21658,13 @@
         "totalScore": 49,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
-        "played": 74,
+        "played": 75,
         "exact": 4,
         "partial": 35,
-        "miss": 35,
+        "miss": 36,
         "points": 49,
-        "hitRate": 0.527,
-        "exactRate": 0.054,
+        "hitRate": 0.52,
+        "exactRate": 0.053,
         "sharpness": 0.103,
         "bestDay": {
           "date": "2026-06-24",
@@ -21479,12 +21672,12 @@
         },
         "bestRegion": {
           "continent": "South America",
-          "games": 19,
+          "games": 20,
           "points": 15,
           "hits": 9,
           "exact": 2,
-          "ppg": 0.79,
-          "hitRate": 0.474
+          "ppg": 0.75,
+          "hitRate": 0.45
         },
         "worstRegion": {
           "continent": "Africa",
@@ -21496,8 +21689,8 @@
           "hitRate": 0.452
         },
         "avgGoals": 2.57,
-        "boldShare": 0.514,
-        "contrarianShare": 0.635,
+        "boldShare": 0.52,
+        "contrarianShare": 0.64,
         "signature": {
           "rate": 0.25,
           "match": "שווייץ 2–1 קנדה",
@@ -21512,13 +21705,13 @@
         "totalScore": 46,
         "winner": "הולנד",
         "topScorer": "קאי האברץ",
-        "played": 74,
+        "played": 75,
         "exact": 6,
         "partial": 27,
-        "miss": 41,
+        "miss": 42,
         "points": 46,
-        "hitRate": 0.446,
-        "exactRate": 0.081,
+        "hitRate": 0.44,
+        "exactRate": 0.08,
         "sharpness": 0.182,
         "bestDay": {
           "date": "2026-06-23",
@@ -21542,9 +21735,9 @@
           "ppg": 0.48,
           "hitRate": 0.387
         },
-        "avgGoals": 3.3,
-        "boldShare": 0.486,
-        "contrarianShare": 0.946,
+        "avgGoals": 3.27,
+        "boldShare": 0.48,
+        "contrarianShare": 0.947,
         "signature": {
           "rate": 0.1,
           "match": "ארה\"ב 4–1 פרגוואי",
@@ -21559,13 +21752,13 @@
         "totalScore": 46,
         "winner": "גרמניה",
         "topScorer": "קיליאן אמבפה",
-        "played": 74,
+        "played": 75,
         "exact": 3,
         "partial": 35,
-        "miss": 36,
+        "miss": 37,
         "points": 46,
-        "hitRate": 0.514,
-        "exactRate": 0.041,
+        "hitRate": 0.507,
+        "exactRate": 0.04,
         "sharpness": 0.079,
         "bestDay": {
           "date": "2026-06-27",
@@ -21582,16 +21775,16 @@
         },
         "worstRegion": {
           "continent": "Europe",
-          "games": 44,
+          "games": 45,
           "points": 20,
           "hits": 20,
           "exact": 0,
-          "ppg": 0.45,
-          "hitRate": 0.455
+          "ppg": 0.44,
+          "hitRate": 0.444
         },
-        "avgGoals": 3.18,
-        "boldShare": 0.5,
-        "contrarianShare": 0.797,
+        "avgGoals": 3.16,
+        "boldShare": 0.507,
+        "contrarianShare": 0.787,
         "signature": {
           "rate": 0.05,
           "match": "דרום אפריקה 1–0 דרום קוריאה",
@@ -21606,13 +21799,13 @@
         "totalScore": 45,
         "winner": "ספרד",
         "topScorer": "עוסמאן דמבלה",
-        "played": 74,
+        "played": 75,
         "exact": 7,
         "partial": 22,
-        "miss": 45,
+        "miss": 46,
         "points": 45,
-        "hitRate": 0.392,
-        "exactRate": 0.095,
+        "hitRate": 0.387,
+        "exactRate": 0.093,
         "sharpness": 0.241,
         "bestDay": {
           "date": "2026-06-27",
@@ -21636,9 +21829,9 @@
           "ppg": 0.5,
           "hitRate": 0.5
         },
-        "avgGoals": 2.24,
-        "boldShare": 0.311,
-        "contrarianShare": 0.73,
+        "avgGoals": 2.27,
+        "boldShare": 0.32,
+        "contrarianShare": 0.733,
         "signature": {
           "rate": 0.05,
           "match": "קטאר 1–1 שווייץ",
