@@ -7,7 +7,7 @@
       "invitationLink": "https://short.365scores.com/TYvJzx",
       "userRank": 9
     },
-    "pulledAt": "2026-07-01T05:04:03.726Z",
+    "pulledAt": "2026-07-01T05:05:03.798Z",
     "finishedCount": 79,
     "totalGames": 91,
     "continents": [
@@ -207,7 +207,7 @@
         "exact": 15,
         "partial": 37,
         "miss": 27,
-        "points": 88,
+        "points": 90,
         "played": 79,
         "hitRate": 0.658,
         "exactRate": 0.19,
@@ -491,7 +491,7 @@
             74,
             76,
             88,
-            88
+            90
           ]
         },
         {
@@ -1034,7 +1034,7 @@
           "2026-06-28": 5,
           "2026-06-29": 2,
           "2026-06-30": 12,
-          "2026-07-01": 0
+          "2026-07-01": 2
         },
         "matchesByDate": {
           "2026-06-11": [
@@ -1866,7 +1866,7 @@
               "pa": 2,
               "pb": 1,
               "outcome": 2,
-              "points": 0
+              "points": 2
             }
           ]
         },
@@ -18328,10 +18328,10 @@
           {
             "continent": "South America",
             "games": 21,
-            "points": 20,
+            "points": 22,
             "hits": 12,
             "exact": 4,
-            "ppg": 0.95,
+            "ppg": 1.05,
             "hitRate": 0.571
           },
           {
@@ -18355,10 +18355,10 @@
           {
             "continent": "North America",
             "games": 20,
-            "points": 26,
+            "points": 28,
             "hits": 18,
             "exact": 4,
-            "ppg": 1.3,
+            "ppg": 1.4,
             "hitRate": 0.9
           },
           {
@@ -18374,10 +18374,10 @@
         "best": {
           "continent": "North America",
           "games": 20,
-          "points": 26,
+          "points": 28,
           "hits": 18,
           "exact": 4,
-          "ppg": 1.3,
+          "ppg": 1.4,
           "hitRate": 0.9
         },
         "worst": {
@@ -19880,7 +19880,7 @@
         "contrarianShare": 0.557,
         "contrarianHits": 27,
         "contrarianPicks": 44,
-        "points": 88,
+        "points": 90,
         "hitRate": 0.658
       },
       {
@@ -20062,7 +20062,7 @@
         "avgGoals": 2.68,
         "boldShare": 0.57,
         "drawShare": 0.127,
-        "points": 88,
+        "points": 90,
         "hitRate": 0.658,
         "exact": 15
       },
@@ -21854,7 +21854,7 @@
         "exact": 15,
         "partial": 37,
         "miss": 27,
-        "points": 88,
+        "points": 90,
         "hitRate": 0.658,
         "exactRate": 0.19,
         "sharpness": 0.288,
@@ -21865,10 +21865,10 @@
         "bestRegion": {
           "continent": "North America",
           "games": 20,
-          "points": 26,
+          "points": 28,
           "hits": 18,
           "exact": 4,
-          "ppg": 1.3,
+          "ppg": 1.4,
           "hitRate": 0.9
         },
         "worstRegion": {
