@@ -7,7 +7,7 @@
       "invitationLink": "https://short.365scores.com/TYvJzx",
       "userRank": 8
     },
-    "pulledAt": "2026-07-01T23:20:39.012Z",
+    "pulledAt": "2026-07-02T01:31:34.025Z",
     "finishedCount": 81,
     "totalGames": 92,
     "continents": [
@@ -23,7 +23,7 @@
         "userID": 116552,
         "name": "Eldad Yitzhak",
         "rank": 1,
-        "totalScore": 90,
+        "totalScore": 92,
         "winner": "צרפת",
         "topScorer": "הארי קיין",
         "isMe": false
@@ -32,7 +32,7 @@
         "userID": 25782,
         "name": "Idan Nissel",
         "rank": 2,
-        "totalScore": 84,
+        "totalScore": 86,
         "winner": "אנגליה",
         "topScorer": "עוסמאן דמבלה",
         "isMe": false
@@ -41,7 +41,7 @@
         "userID": 27409,
         "name": "Ophir R",
         "rank": 3,
-        "totalScore": 74,
+        "totalScore": 76,
         "winner": "צרפת",
         "topScorer": "קיליאן אמבפה",
         "isMe": false
@@ -50,7 +50,7 @@
         "userID": 151842,
         "name": "Ido Richer",
         "rank": 4,
-        "totalScore": 73,
+        "totalScore": 75,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
         "isMe": false
@@ -59,7 +59,7 @@
         "userID": 109432,
         "name": "Moran Weigler",
         "rank": 5,
-        "totalScore": 73,
+        "totalScore": 75,
         "winner": "צרפת",
         "topScorer": "הארי קיין",
         "isMe": false
@@ -68,7 +68,7 @@
         "userID": 166560,
         "name": "Ran Artzi",
         "rank": 6,
-        "totalScore": 72,
+        "totalScore": 74,
         "winner": "צרפת",
         "topScorer": "קיליאן אמבפה",
         "isMe": false
@@ -77,7 +77,7 @@
         "userID": 144951,
         "name": "Liad Scharf",
         "rank": 7,
-        "totalScore": 70,
+        "totalScore": 72,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
         "isMe": false
@@ -86,7 +86,7 @@
         "userID": 166486,
         "name": "Ishay Mamluk",
         "rank": 8,
-        "totalScore": 69,
+        "totalScore": 71,
         "winner": "ארגנטינה",
         "topScorer": "מיקל אויארסבאל",
         "isMe": true
@@ -95,7 +95,7 @@
         "userID": 80787,
         "name": "Avi Lowenstein",
         "rank": 9,
-        "totalScore": 69,
+        "totalScore": 71,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
         "isMe": false
@@ -104,7 +104,7 @@
         "userID": 126577,
         "name": "נועם זילברברג",
         "rank": 10,
-        "totalScore": 68,
+        "totalScore": 70,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
         "isMe": false
@@ -113,7 +113,7 @@
         "userID": 143877,
         "name": "Shay Zamler",
         "rank": 11,
-        "totalScore": 67,
+        "totalScore": 69,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
         "isMe": false
@@ -122,26 +122,26 @@
         "userID": 80749,
         "name": "Tomer Yekutiel",
         "rank": 12,
-        "totalScore": 66,
+        "totalScore": 68,
         "winner": "ספרד",
         "topScorer": "למין יאמאל",
         "isMe": false
       },
       {
-        "userID": 25297,
-        "name": "עמיחי רוזנצוויג",
+        "userID": 48002,
+        "name": "Yair Sandberg",
         "rank": 13,
-        "totalScore": 66,
-        "winner": "ברזיל",
+        "totalScore": 67,
+        "winner": "צרפת",
         "topScorer": "קיליאן אמבפה",
         "isMe": false
       },
       {
-        "userID": 48002,
-        "name": "Yair Sandberg",
+        "userID": 25297,
+        "name": "עמיחי רוזנצוויג",
         "rank": 14,
-        "totalScore": 65,
-        "winner": "צרפת",
+        "totalScore": 66,
+        "winner": "ברזיל",
         "topScorer": "קיליאן אמבפה",
         "isMe": false
       },
@@ -149,7 +149,7 @@
         "userID": 157267,
         "name": "Bino Bepita",
         "rank": 15,
-        "totalScore": 63,
+        "totalScore": 65,
         "winner": "ספרד",
         "topScorer": "עוסמאן דמבלה",
         "isMe": false
@@ -158,7 +158,7 @@
         "userID": 166115,
         "name": "oded wertheim",
         "rank": 16,
-        "totalScore": 60,
+        "totalScore": 62,
         "winner": "אנגליה",
         "topScorer": "הארי קיין",
         "isMe": false
@@ -167,7 +167,7 @@
         "userID": 87788,
         "name": "Shai Silverberg",
         "rank": 17,
-        "totalScore": 60,
+        "totalScore": 62,
         "winner": "גרמניה",
         "topScorer": "קיליאן אמבפה",
         "isMe": false
@@ -176,7 +176,7 @@
         "userID": 124843,
         "name": "Gilad Brand",
         "rank": 18,
-        "totalScore": 53,
+        "totalScore": 58,
         "winner": "ספרד",
         "topScorer": "עוסמאן דמבלה",
         "isMe": false
@@ -194,7 +194,7 @@
         "userID": 1,
         "name": "הקוף",
         "rank": 20,
-        "totalScore": 50,
+        "totalScore": 52,
         "winner": "הולנד",
         "topScorer": "קאי האברץ",
         "isMe": false
@@ -346,18 +346,6 @@
         "sharpness": 0.152
       },
       {
-        "name": "עמיחי רוזנצוויג",
-        "isMe": false,
-        "exact": 6,
-        "partial": 42,
-        "miss": 33,
-        "points": 66,
-        "played": 81,
-        "hitRate": 0.593,
-        "exactRate": 0.074,
-        "sharpness": 0.125
-      },
-      {
         "name": "Yair Sandberg",
         "isMe": false,
         "exact": 7,
@@ -368,6 +356,18 @@
         "hitRate": 0.556,
         "exactRate": 0.086,
         "sharpness": 0.156
+      },
+      {
+        "name": "עמיחי רוזנצוויג",
+        "isMe": false,
+        "exact": 6,
+        "partial": 42,
+        "miss": 33,
+        "points": 66,
+        "played": 81,
+        "hitRate": 0.593,
+        "exactRate": 0.074,
+        "sharpness": 0.125
       },
       {
         "name": "Bino Bepita",
@@ -792,33 +792,6 @@
           ]
         },
         {
-          "name": "עמיחי רוזנצוויג",
-          "isMe": false,
-          "data": [
-            3,
-            3,
-            4,
-            9,
-            13,
-            15,
-            17,
-            20,
-            23,
-            25,
-            27,
-            32,
-            35,
-            41,
-            44,
-            45,
-            52,
-            56,
-            58,
-            64,
-            66
-          ]
-        },
-        {
           "name": "Yair Sandberg",
           "isMe": false,
           "data": [
@@ -843,6 +816,33 @@
             53,
             58,
             65
+          ]
+        },
+        {
+          "name": "עמיחי רוזנצוויג",
+          "isMe": false,
+          "data": [
+            3,
+            3,
+            4,
+            9,
+            13,
+            15,
+            17,
+            20,
+            23,
+            25,
+            27,
+            32,
+            35,
+            41,
+            44,
+            45,
+            52,
+            56,
+            58,
+            64,
+            66
           ]
         },
         {
@@ -11631,891 +11631,6 @@
         }
       },
       {
-        "name": "עמיחי רוזנצוויג",
-        "isMe": false,
-        "perDate": {
-          "2026-06-11": 3,
-          "2026-06-12": 0,
-          "2026-06-13": 1,
-          "2026-06-14": 5,
-          "2026-06-15": 4,
-          "2026-06-16": 2,
-          "2026-06-17": 2,
-          "2026-06-18": 3,
-          "2026-06-19": 3,
-          "2026-06-20": 2,
-          "2026-06-21": 2,
-          "2026-06-22": 5,
-          "2026-06-23": 3,
-          "2026-06-24": 6,
-          "2026-06-25": 3,
-          "2026-06-26": 1,
-          "2026-06-27": 7,
-          "2026-06-28": 4,
-          "2026-06-29": 2,
-          "2026-06-30": 6,
-          "2026-07-01": 2
-        },
-        "matchesByDate": {
-          "2026-06-11": [
-            {
-              "aName": "מקסיקו",
-              "bName": "דרום אפריקה",
-              "s1": 2,
-              "s2": 0,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 3,
-              "points": 3
-            }
-          ],
-          "2026-06-12": [
-            {
-              "aName": "דרום קוריאה",
-              "bName": "צ'כיה",
-              "s1": 2,
-              "s2": 1,
-              "pa": 1,
-              "pb": 2,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "קנדה",
-              "bName": "בוסניה הרצגובינה",
-              "s1": 1,
-              "s2": 1,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            }
-          ],
-          "2026-06-13": [
-            {
-              "aName": "ארה\"ב",
-              "bName": "פרגוואי",
-              "s1": 4,
-              "s2": 1,
-              "pa": 2,
-              "pb": 1,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "קטאר",
-              "bName": "שווייץ",
-              "s1": 1,
-              "s2": 1,
-              "pa": 0,
-              "pb": 4,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "ברזיל",
-              "bName": "מרוקו",
-              "s1": 1,
-              "s2": 1,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            }
-          ],
-          "2026-06-14": [
-            {
-              "aName": "האיטי",
-              "bName": "סקוטלנד",
-              "s1": 0,
-              "s2": 1,
-              "pa": 0,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "אוסטרליה",
-              "bName": "טורקיה",
-              "s1": 2,
-              "s2": 0,
-              "pa": 1,
-              "pb": 1,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "גרמניה",
-              "bName": "קורסאו",
-              "s1": 7,
-              "s2": 1,
-              "pa": 6,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "הולנד",
-              "bName": "יפן",
-              "s1": 2,
-              "s2": 2,
-              "pa": 2,
-              "pb": 2,
-              "outcome": 3,
-              "points": 3
-            },
-            {
-              "aName": "חוף השנהב",
-              "bName": "אקוודור",
-              "s1": 1,
-              "s2": 0,
-              "pa": 1,
-              "pb": 1,
-              "outcome": 0,
-              "points": 0
-            }
-          ],
-          "2026-06-15": [
-            {
-              "aName": "שוודיה",
-              "bName": "תוניסיה",
-              "s1": 5,
-              "s2": 1,
-              "pa": 3,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "ספרד",
-              "bName": "קייפ ורדה",
-              "s1": 0,
-              "s2": 0,
-              "pa": 6,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "בלגיה",
-              "bName": "מצרים",
-              "s1": 1,
-              "s2": 1,
-              "pa": 1,
-              "pb": 1,
-              "outcome": 3,
-              "points": 3
-            },
-            {
-              "aName": "ערב הסעודית",
-              "bName": "אורוגוואי",
-              "s1": 1,
-              "s2": 1,
-              "pa": 0,
-              "pb": 1,
-              "outcome": 0,
-              "points": 0
-            }
-          ],
-          "2026-06-16": [
-            {
-              "aName": "איראן",
-              "bName": "ניו זילנד",
-              "s1": 2,
-              "s2": 2,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "צרפת",
-              "bName": "סנגל",
-              "s1": 3,
-              "s2": 1,
-              "pa": 3,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "עיראק",
-              "bName": "נורווגיה",
-              "s1": 1,
-              "s2": 4,
-              "pa": 0,
-              "pb": 4,
-              "outcome": 2,
-              "points": 1
-            }
-          ],
-          "2026-06-17": [
-            {
-              "aName": "ארגנטינה",
-              "bName": "אלג'יריה",
-              "s1": 3,
-              "s2": 0,
-              "pa": 1,
-              "pb": 1,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "אוסטריה",
-              "bName": "ירדן",
-              "s1": 3,
-              "s2": 1,
-              "pa": 0,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "פורטוגל",
-              "bName": "ר.ד קונגו",
-              "s1": 1,
-              "s2": 1,
-              "pa": 4,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "אנגליה",
-              "bName": "קרואטיה",
-              "s1": 4,
-              "s2": 2,
-              "pa": 1,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "גאנה",
-              "bName": "פנמה",
-              "s1": 1,
-              "s2": 0,
-              "pa": 3,
-              "pb": 1,
-              "outcome": 2,
-              "points": 1
-            }
-          ],
-          "2026-06-18": [
-            {
-              "aName": "אוזבקיסטן",
-              "bName": "קולומביה",
-              "s1": 1,
-              "s2": 3,
-              "pa": 0,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "צ'כיה",
-              "bName": "דרום אפריקה",
-              "s1": 1,
-              "s2": 1,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "שווייץ",
-              "bName": "בוסניה הרצגובינה",
-              "s1": 4,
-              "s2": 1,
-              "pa": 3,
-              "pb": 1,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "קנדה",
-              "bName": "קטאר",
-              "s1": 6,
-              "s2": 0,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            }
-          ],
-          "2026-06-19": [
-            {
-              "aName": "מקסיקו",
-              "bName": "דרום קוריאה",
-              "s1": 1,
-              "s2": 0,
-              "pa": 3,
-              "pb": 1,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "ארה\"ב",
-              "bName": "אוסטרליה",
-              "s1": 2,
-              "s2": 0,
-              "pa": 3,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "סקוטלנד",
-              "bName": "מרוקו",
-              "s1": 0,
-              "s2": 1,
-              "pa": 1,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            }
-          ],
-          "2026-06-20": [
-            {
-              "aName": "ברזיל",
-              "bName": "האיטי",
-              "s1": 3,
-              "s2": 0,
-              "pa": 5,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "טורקיה",
-              "bName": "פרגוואי",
-              "s1": 0,
-              "s2": 1,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "הולנד",
-              "bName": "שוודיה",
-              "s1": 5,
-              "s2": 1,
-              "pa": 2,
-              "pb": 2,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "גרמניה",
-              "bName": "חוף השנהב",
-              "s1": 2,
-              "s2": 1,
-              "pa": 4,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            }
-          ],
-          "2026-06-21": [
-            {
-              "aName": "אקוודור",
-              "bName": "קורסאו",
-              "s1": 0,
-              "s2": 0,
-              "pa": 3,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "תוניסיה",
-              "bName": "יפן",
-              "s1": 0,
-              "s2": 4,
-              "pa": 1,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "ספרד",
-              "bName": "ערב הסעודית",
-              "s1": 4,
-              "s2": 0,
-              "pa": 3,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "בלגיה",
-              "bName": "איראן",
-              "s1": 0,
-              "s2": 0,
-              "pa": 2,
-              "pb": 1,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "אורוגוואי",
-              "bName": "קייפ ורדה",
-              "s1": 2,
-              "s2": 2,
-              "pa": 1,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            }
-          ],
-          "2026-06-22": [
-            {
-              "aName": "ניו זילנד",
-              "bName": "מצרים",
-              "s1": 1,
-              "s2": 3,
-              "pa": 0,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "ארגנטינה",
-              "bName": "אוסטריה",
-              "s1": 2,
-              "s2": 0,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 3,
-              "points": 3
-            },
-            {
-              "aName": "צרפת",
-              "bName": "עיראק",
-              "s1": 3,
-              "s2": 0,
-              "pa": 4,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            }
-          ],
-          "2026-06-23": [
-            {
-              "aName": "נורווגיה",
-              "bName": "סנגל",
-              "s1": 3,
-              "s2": 2,
-              "pa": 4,
-              "pb": 1,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "ירדן",
-              "bName": "אלג'יריה",
-              "s1": 1,
-              "s2": 2,
-              "pa": 2,
-              "pb": 2,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "פורטוגל",
-              "bName": "אוזבקיסטן",
-              "s1": 5,
-              "s2": 0,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "אנגליה",
-              "bName": "גאנה",
-              "s1": 0,
-              "s2": 0,
-              "pa": 2,
-              "pb": 1,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "פנמה",
-              "bName": "קרואטיה",
-              "s1": 0,
-              "s2": 1,
-              "pa": 0,
-              "pb": 3,
-              "outcome": 2,
-              "points": 1
-            }
-          ],
-          "2026-06-24": [
-            {
-              "aName": "קולומביה",
-              "bName": "ר.ד קונגו",
-              "s1": 1,
-              "s2": 0,
-              "pa": 1,
-              "pb": 1,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "שווייץ",
-              "bName": "קנדה",
-              "s1": 2,
-              "s2": 1,
-              "pa": 2,
-              "pb": 1,
-              "outcome": 3,
-              "points": 3
-            },
-            {
-              "aName": "בוסניה הרצגובינה",
-              "bName": "קטאר",
-              "s1": 3,
-              "s2": 1,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "סקוטלנד",
-              "bName": "ברזיל",
-              "s1": 0,
-              "s2": 3,
-              "pa": 1,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "מרוקו",
-              "bName": "האיטי",
-              "s1": 4,
-              "s2": 2,
-              "pa": 3,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            }
-          ],
-          "2026-06-25": [
-            {
-              "aName": "דרום אפריקה",
-              "bName": "דרום קוריאה",
-              "s1": 1,
-              "s2": 0,
-              "pa": 1,
-              "pb": 1,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "צ'כיה",
-              "bName": "מקסיקו",
-              "s1": 0,
-              "s2": 3,
-              "pa": 1,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "אקוודור",
-              "bName": "גרמניה",
-              "s1": 2,
-              "s2": 1,
-              "pa": 0,
-              "pb": 3,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "קורסאו",
-              "bName": "חוף השנהב",
-              "s1": 0,
-              "s2": 2,
-              "pa": 0,
-              "pb": 3,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "תוניסיה",
-              "bName": "הולנד",
-              "s1": 1,
-              "s2": 3,
-              "pa": 0,
-              "pb": 3,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "יפן",
-              "bName": "שוודיה",
-              "s1": 1,
-              "s2": 1,
-              "pa": 2,
-              "pb": 3,
-              "outcome": 0,
-              "points": 0
-            }
-          ],
-          "2026-06-26": [
-            {
-              "aName": "פרגוואי",
-              "bName": "אוסטרליה",
-              "s1": 0,
-              "s2": 0,
-              "pa": 0,
-              "pb": 2,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "טורקיה",
-              "bName": "ארה\"ב",
-              "s1": 3,
-              "s2": 2,
-              "pa": 0,
-              "pb": 2,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "נורווגיה",
-              "bName": "צרפת",
-              "s1": 1,
-              "s2": 4,
-              "pa": 2,
-              "pb": 1,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "סנגל",
-              "bName": "עיראק",
-              "s1": 5,
-              "s2": 0,
-              "pa": 3,
-              "pb": 0,
-              "outcome": 2,
-              "points": 1
-            }
-          ],
-          "2026-06-27": [
-            {
-              "aName": "אורוגוואי",
-              "bName": "ספרד",
-              "s1": 0,
-              "s2": 1,
-              "pa": 0,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "קייפ ורדה",
-              "bName": "ערב הסעודית",
-              "s1": 0,
-              "s2": 0,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "מצרים",
-              "bName": "איראן",
-              "s1": 1,
-              "s2": 1,
-              "pa": 1,
-              "pb": 1,
-              "outcome": 3,
-              "points": 3
-            },
-            {
-              "aName": "ניו זילנד",
-              "bName": "בלגיה",
-              "s1": 1,
-              "s2": 5,
-              "pa": 0,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "קרואטיה",
-              "bName": "גאנה",
-              "s1": 2,
-              "s2": 1,
-              "pa": 4,
-              "pb": 1,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "פנמה",
-              "bName": "אנגליה",
-              "s1": 0,
-              "s2": 2,
-              "pa": 0,
-              "pb": 4,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "קולומביה",
-              "bName": "פורטוגל",
-              "s1": 0,
-              "s2": 0,
-              "pa": 0,
-              "pb": 2,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "ר.ד קונגו",
-              "bName": "אוזבקיסטן",
-              "s1": 3,
-              "s2": 1,
-              "pa": 1,
-              "pb": 1,
-              "outcome": 0,
-              "points": 0
-            }
-          ],
-          "2026-06-28": [
-            {
-              "aName": "אלג'יריה",
-              "bName": "אוסטריה",
-              "s1": 3,
-              "s2": 3,
-              "pa": 1,
-              "pb": 1,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "ירדן",
-              "bName": "ארגנטינה",
-              "s1": 1,
-              "s2": 3,
-              "pa": 0,
-              "pb": 2,
-              "outcome": 2,
-              "points": 1
-            },
-            {
-              "aName": "דרום אפריקה",
-              "bName": "קנדה",
-              "s1": 0,
-              "s2": 1,
-              "pa": 1,
-              "pb": 2,
-              "outcome": 2,
-              "points": 2
-            }
-          ],
-          "2026-06-29": [
-            {
-              "aName": "ברזיל",
-              "bName": "יפן",
-              "s1": 2,
-              "s2": 1,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 2,
-              "points": 2
-            },
-            {
-              "aName": "גרמניה",
-              "bName": "פרגוואי",
-              "s1": 1,
-              "s2": 1,
-              "pa": 4,
-              "pb": 0,
-              "outcome": 0,
-              "points": 0
-            }
-          ],
-          "2026-06-30": [
-            {
-              "aName": "הולנד",
-              "bName": "מרוקו",
-              "s1": 1,
-              "s2": 1,
-              "pa": 2,
-              "pb": 2,
-              "outcome": 2,
-              "points": 2
-            },
-            {
-              "aName": "חוף השנהב",
-              "bName": "נורווגיה",
-              "s1": 1,
-              "s2": 2,
-              "pa": 1,
-              "pb": 3,
-              "outcome": 2,
-              "points": 2
-            },
-            {
-              "aName": "צרפת",
-              "bName": "שוודיה",
-              "s1": 3,
-              "s2": 0,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 2,
-              "points": 2
-            }
-          ],
-          "2026-07-01": [
-            {
-              "aName": "מקסיקו",
-              "bName": "אקוודור",
-              "s1": 2,
-              "s2": 0,
-              "pa": 2,
-              "pb": 2,
-              "outcome": 0,
-              "points": 0
-            },
-            {
-              "aName": "אנגליה",
-              "bName": "ר.ד קונגו",
-              "s1": 2,
-              "s2": 1,
-              "pa": 2,
-              "pb": 0,
-              "outcome": 2,
-              "points": 2
-            },
-            {
-              "aName": "בלגיה",
-              "bName": "סנגל",
-              "s1": 3,
-              "s2": 2,
-              "pa": 1,
-              "pb": 1,
-              "outcome": 0,
-              "points": 0
-            }
-          ]
-        },
-        "best": {
-          "date": "2026-06-27",
-          "points": 7
-        }
-      },
-      {
         "name": "Yair Sandberg",
         "isMe": false,
         "perDate": {
@@ -13392,6 +12507,891 @@
               "pb": 1,
               "outcome": 2,
               "points": 2
+            }
+          ]
+        },
+        "best": {
+          "date": "2026-06-27",
+          "points": 7
+        }
+      },
+      {
+        "name": "עמיחי רוזנצוויג",
+        "isMe": false,
+        "perDate": {
+          "2026-06-11": 3,
+          "2026-06-12": 0,
+          "2026-06-13": 1,
+          "2026-06-14": 5,
+          "2026-06-15": 4,
+          "2026-06-16": 2,
+          "2026-06-17": 2,
+          "2026-06-18": 3,
+          "2026-06-19": 3,
+          "2026-06-20": 2,
+          "2026-06-21": 2,
+          "2026-06-22": 5,
+          "2026-06-23": 3,
+          "2026-06-24": 6,
+          "2026-06-25": 3,
+          "2026-06-26": 1,
+          "2026-06-27": 7,
+          "2026-06-28": 4,
+          "2026-06-29": 2,
+          "2026-06-30": 6,
+          "2026-07-01": 2
+        },
+        "matchesByDate": {
+          "2026-06-11": [
+            {
+              "aName": "מקסיקו",
+              "bName": "דרום אפריקה",
+              "s1": 2,
+              "s2": 0,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 3,
+              "points": 3
+            }
+          ],
+          "2026-06-12": [
+            {
+              "aName": "דרום קוריאה",
+              "bName": "צ'כיה",
+              "s1": 2,
+              "s2": 1,
+              "pa": 1,
+              "pb": 2,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "קנדה",
+              "bName": "בוסניה הרצגובינה",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            }
+          ],
+          "2026-06-13": [
+            {
+              "aName": "ארה\"ב",
+              "bName": "פרגוואי",
+              "s1": 4,
+              "s2": 1,
+              "pa": 2,
+              "pb": 1,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "קטאר",
+              "bName": "שווייץ",
+              "s1": 1,
+              "s2": 1,
+              "pa": 0,
+              "pb": 4,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "ברזיל",
+              "bName": "מרוקו",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            }
+          ],
+          "2026-06-14": [
+            {
+              "aName": "האיטי",
+              "bName": "סקוטלנד",
+              "s1": 0,
+              "s2": 1,
+              "pa": 0,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "אוסטרליה",
+              "bName": "טורקיה",
+              "s1": 2,
+              "s2": 0,
+              "pa": 1,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "קורסאו",
+              "s1": 7,
+              "s2": 1,
+              "pa": 6,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "הולנד",
+              "bName": "יפן",
+              "s1": 2,
+              "s2": 2,
+              "pa": 2,
+              "pb": 2,
+              "outcome": 3,
+              "points": 3
+            },
+            {
+              "aName": "חוף השנהב",
+              "bName": "אקוודור",
+              "s1": 1,
+              "s2": 0,
+              "pa": 1,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
+            }
+          ],
+          "2026-06-15": [
+            {
+              "aName": "שוודיה",
+              "bName": "תוניסיה",
+              "s1": 5,
+              "s2": 1,
+              "pa": 3,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "ספרד",
+              "bName": "קייפ ורדה",
+              "s1": 0,
+              "s2": 0,
+              "pa": 6,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "בלגיה",
+              "bName": "מצרים",
+              "s1": 1,
+              "s2": 1,
+              "pa": 1,
+              "pb": 1,
+              "outcome": 3,
+              "points": 3
+            },
+            {
+              "aName": "ערב הסעודית",
+              "bName": "אורוגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 0,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
+            }
+          ],
+          "2026-06-16": [
+            {
+              "aName": "איראן",
+              "bName": "ניו זילנד",
+              "s1": 2,
+              "s2": 2,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "צרפת",
+              "bName": "סנגל",
+              "s1": 3,
+              "s2": 1,
+              "pa": 3,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "עיראק",
+              "bName": "נורווגיה",
+              "s1": 1,
+              "s2": 4,
+              "pa": 0,
+              "pb": 4,
+              "outcome": 2,
+              "points": 1
+            }
+          ],
+          "2026-06-17": [
+            {
+              "aName": "ארגנטינה",
+              "bName": "אלג'יריה",
+              "s1": 3,
+              "s2": 0,
+              "pa": 1,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "אוסטריה",
+              "bName": "ירדן",
+              "s1": 3,
+              "s2": 1,
+              "pa": 0,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "פורטוגל",
+              "bName": "ר.ד קונגו",
+              "s1": 1,
+              "s2": 1,
+              "pa": 4,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "אנגליה",
+              "bName": "קרואטיה",
+              "s1": 4,
+              "s2": 2,
+              "pa": 1,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "גאנה",
+              "bName": "פנמה",
+              "s1": 1,
+              "s2": 0,
+              "pa": 3,
+              "pb": 1,
+              "outcome": 2,
+              "points": 1
+            }
+          ],
+          "2026-06-18": [
+            {
+              "aName": "אוזבקיסטן",
+              "bName": "קולומביה",
+              "s1": 1,
+              "s2": 3,
+              "pa": 0,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "צ'כיה",
+              "bName": "דרום אפריקה",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "שווייץ",
+              "bName": "בוסניה הרצגובינה",
+              "s1": 4,
+              "s2": 1,
+              "pa": 3,
+              "pb": 1,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "קנדה",
+              "bName": "קטאר",
+              "s1": 6,
+              "s2": 0,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            }
+          ],
+          "2026-06-19": [
+            {
+              "aName": "מקסיקו",
+              "bName": "דרום קוריאה",
+              "s1": 1,
+              "s2": 0,
+              "pa": 3,
+              "pb": 1,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "ארה\"ב",
+              "bName": "אוסטרליה",
+              "s1": 2,
+              "s2": 0,
+              "pa": 3,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "סקוטלנד",
+              "bName": "מרוקו",
+              "s1": 0,
+              "s2": 1,
+              "pa": 1,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            }
+          ],
+          "2026-06-20": [
+            {
+              "aName": "ברזיל",
+              "bName": "האיטי",
+              "s1": 3,
+              "s2": 0,
+              "pa": 5,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "טורקיה",
+              "bName": "פרגוואי",
+              "s1": 0,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "הולנד",
+              "bName": "שוודיה",
+              "s1": 5,
+              "s2": 1,
+              "pa": 2,
+              "pb": 2,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "חוף השנהב",
+              "s1": 2,
+              "s2": 1,
+              "pa": 4,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            }
+          ],
+          "2026-06-21": [
+            {
+              "aName": "אקוודור",
+              "bName": "קורסאו",
+              "s1": 0,
+              "s2": 0,
+              "pa": 3,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "תוניסיה",
+              "bName": "יפן",
+              "s1": 0,
+              "s2": 4,
+              "pa": 1,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "ספרד",
+              "bName": "ערב הסעודית",
+              "s1": 4,
+              "s2": 0,
+              "pa": 3,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "בלגיה",
+              "bName": "איראן",
+              "s1": 0,
+              "s2": 0,
+              "pa": 2,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "אורוגוואי",
+              "bName": "קייפ ורדה",
+              "s1": 2,
+              "s2": 2,
+              "pa": 1,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            }
+          ],
+          "2026-06-22": [
+            {
+              "aName": "ניו זילנד",
+              "bName": "מצרים",
+              "s1": 1,
+              "s2": 3,
+              "pa": 0,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "ארגנטינה",
+              "bName": "אוסטריה",
+              "s1": 2,
+              "s2": 0,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 3,
+              "points": 3
+            },
+            {
+              "aName": "צרפת",
+              "bName": "עיראק",
+              "s1": 3,
+              "s2": 0,
+              "pa": 4,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            }
+          ],
+          "2026-06-23": [
+            {
+              "aName": "נורווגיה",
+              "bName": "סנגל",
+              "s1": 3,
+              "s2": 2,
+              "pa": 4,
+              "pb": 1,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "ירדן",
+              "bName": "אלג'יריה",
+              "s1": 1,
+              "s2": 2,
+              "pa": 2,
+              "pb": 2,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "פורטוגל",
+              "bName": "אוזבקיסטן",
+              "s1": 5,
+              "s2": 0,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "אנגליה",
+              "bName": "גאנה",
+              "s1": 0,
+              "s2": 0,
+              "pa": 2,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "פנמה",
+              "bName": "קרואטיה",
+              "s1": 0,
+              "s2": 1,
+              "pa": 0,
+              "pb": 3,
+              "outcome": 2,
+              "points": 1
+            }
+          ],
+          "2026-06-24": [
+            {
+              "aName": "קולומביה",
+              "bName": "ר.ד קונגו",
+              "s1": 1,
+              "s2": 0,
+              "pa": 1,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "שווייץ",
+              "bName": "קנדה",
+              "s1": 2,
+              "s2": 1,
+              "pa": 2,
+              "pb": 1,
+              "outcome": 3,
+              "points": 3
+            },
+            {
+              "aName": "בוסניה הרצגובינה",
+              "bName": "קטאר",
+              "s1": 3,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "סקוטלנד",
+              "bName": "ברזיל",
+              "s1": 0,
+              "s2": 3,
+              "pa": 1,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "מרוקו",
+              "bName": "האיטי",
+              "s1": 4,
+              "s2": 2,
+              "pa": 3,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            }
+          ],
+          "2026-06-25": [
+            {
+              "aName": "דרום אפריקה",
+              "bName": "דרום קוריאה",
+              "s1": 1,
+              "s2": 0,
+              "pa": 1,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "צ'כיה",
+              "bName": "מקסיקו",
+              "s1": 0,
+              "s2": 3,
+              "pa": 1,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "אקוודור",
+              "bName": "גרמניה",
+              "s1": 2,
+              "s2": 1,
+              "pa": 0,
+              "pb": 3,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "קורסאו",
+              "bName": "חוף השנהב",
+              "s1": 0,
+              "s2": 2,
+              "pa": 0,
+              "pb": 3,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "תוניסיה",
+              "bName": "הולנד",
+              "s1": 1,
+              "s2": 3,
+              "pa": 0,
+              "pb": 3,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "יפן",
+              "bName": "שוודיה",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 3,
+              "outcome": 0,
+              "points": 0
+            }
+          ],
+          "2026-06-26": [
+            {
+              "aName": "פרגוואי",
+              "bName": "אוסטרליה",
+              "s1": 0,
+              "s2": 0,
+              "pa": 0,
+              "pb": 2,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "טורקיה",
+              "bName": "ארה\"ב",
+              "s1": 3,
+              "s2": 2,
+              "pa": 0,
+              "pb": 2,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "נורווגיה",
+              "bName": "צרפת",
+              "s1": 1,
+              "s2": 4,
+              "pa": 2,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "סנגל",
+              "bName": "עיראק",
+              "s1": 5,
+              "s2": 0,
+              "pa": 3,
+              "pb": 0,
+              "outcome": 2,
+              "points": 1
+            }
+          ],
+          "2026-06-27": [
+            {
+              "aName": "אורוגוואי",
+              "bName": "ספרד",
+              "s1": 0,
+              "s2": 1,
+              "pa": 0,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "קייפ ורדה",
+              "bName": "ערב הסעודית",
+              "s1": 0,
+              "s2": 0,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "מצרים",
+              "bName": "איראן",
+              "s1": 1,
+              "s2": 1,
+              "pa": 1,
+              "pb": 1,
+              "outcome": 3,
+              "points": 3
+            },
+            {
+              "aName": "ניו זילנד",
+              "bName": "בלגיה",
+              "s1": 1,
+              "s2": 5,
+              "pa": 0,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "קרואטיה",
+              "bName": "גאנה",
+              "s1": 2,
+              "s2": 1,
+              "pa": 4,
+              "pb": 1,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "פנמה",
+              "bName": "אנגליה",
+              "s1": 0,
+              "s2": 2,
+              "pa": 0,
+              "pb": 4,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "קולומביה",
+              "bName": "פורטוגל",
+              "s1": 0,
+              "s2": 0,
+              "pa": 0,
+              "pb": 2,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "ר.ד קונגו",
+              "bName": "אוזבקיסטן",
+              "s1": 3,
+              "s2": 1,
+              "pa": 1,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
+            }
+          ],
+          "2026-06-28": [
+            {
+              "aName": "אלג'יריה",
+              "bName": "אוסטריה",
+              "s1": 3,
+              "s2": 3,
+              "pa": 1,
+              "pb": 1,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "ירדן",
+              "bName": "ארגנטינה",
+              "s1": 1,
+              "s2": 3,
+              "pa": 0,
+              "pb": 2,
+              "outcome": 2,
+              "points": 1
+            },
+            {
+              "aName": "דרום אפריקה",
+              "bName": "קנדה",
+              "s1": 0,
+              "s2": 1,
+              "pa": 1,
+              "pb": 2,
+              "outcome": 2,
+              "points": 2
+            }
+          ],
+          "2026-06-29": [
+            {
+              "aName": "ברזיל",
+              "bName": "יפן",
+              "s1": 2,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 2,
+              "points": 2
+            },
+            {
+              "aName": "גרמניה",
+              "bName": "פרגוואי",
+              "s1": 1,
+              "s2": 1,
+              "pa": 4,
+              "pb": 0,
+              "outcome": 0,
+              "points": 0
+            }
+          ],
+          "2026-06-30": [
+            {
+              "aName": "הולנד",
+              "bName": "מרוקו",
+              "s1": 1,
+              "s2": 1,
+              "pa": 2,
+              "pb": 2,
+              "outcome": 2,
+              "points": 2
+            },
+            {
+              "aName": "חוף השנהב",
+              "bName": "נורווגיה",
+              "s1": 1,
+              "s2": 2,
+              "pa": 1,
+              "pb": 3,
+              "outcome": 2,
+              "points": 2
+            },
+            {
+              "aName": "צרפת",
+              "bName": "שוודיה",
+              "s1": 3,
+              "s2": 0,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 2,
+              "points": 2
+            }
+          ],
+          "2026-07-01": [
+            {
+              "aName": "מקסיקו",
+              "bName": "אקוודור",
+              "s1": 2,
+              "s2": 0,
+              "pa": 2,
+              "pb": 2,
+              "outcome": 0,
+              "points": 0
+            },
+            {
+              "aName": "אנגליה",
+              "bName": "ר.ד קונגו",
+              "s1": 2,
+              "s2": 1,
+              "pa": 2,
+              "pb": 0,
+              "outcome": 2,
+              "points": 2
+            },
+            {
+              "aName": "בלגיה",
+              "bName": "סנגל",
+              "s1": 3,
+              "s2": 2,
+              "pa": 1,
+              "pb": 1,
+              "outcome": 0,
+              "points": 0
             }
           ]
         },
@@ -19649,84 +19649,6 @@
         }
       },
       {
-        "name": "עמיחי רוזנצוויג",
-        "isMe": false,
-        "cells": [
-          {
-            "continent": "Europe",
-            "games": 50,
-            "points": 43,
-            "hits": 31,
-            "exact": 4,
-            "ppg": 0.86,
-            "hitRate": 0.62
-          },
-          {
-            "continent": "South America",
-            "games": 21,
-            "points": 11,
-            "hits": 8,
-            "exact": 1,
-            "ppg": 0.52,
-            "hitRate": 0.381
-          },
-          {
-            "continent": "Africa",
-            "games": 35,
-            "points": 31,
-            "hits": 21,
-            "exact": 3,
-            "ppg": 0.89,
-            "hitRate": 0.6
-          },
-          {
-            "continent": "Asia",
-            "games": 25,
-            "points": 19,
-            "hits": 14,
-            "exact": 2,
-            "ppg": 0.76,
-            "hitRate": 0.56
-          },
-          {
-            "continent": "North America",
-            "games": 20,
-            "points": 21,
-            "hits": 16,
-            "exact": 2,
-            "ppg": 1.05,
-            "hitRate": 0.8
-          },
-          {
-            "continent": "Oceania",
-            "games": 6,
-            "points": 3,
-            "hits": 3,
-            "exact": 0,
-            "ppg": 0.5,
-            "hitRate": 0.5
-          }
-        ],
-        "best": {
-          "continent": "North America",
-          "games": 20,
-          "points": 21,
-          "hits": 16,
-          "exact": 2,
-          "ppg": 1.05,
-          "hitRate": 0.8
-        },
-        "worst": {
-          "continent": "Oceania",
-          "games": 6,
-          "points": 3,
-          "hits": 3,
-          "exact": 0,
-          "ppg": 0.5,
-          "hitRate": 0.5
-        }
-      },
-      {
         "name": "Yair Sandberg",
         "isMe": false,
         "cells": [
@@ -19802,6 +19724,84 @@
           "exact": 1,
           "ppg": 0.6,
           "hitRate": 0.48
+        }
+      },
+      {
+        "name": "עמיחי רוזנצוויג",
+        "isMe": false,
+        "cells": [
+          {
+            "continent": "Europe",
+            "games": 50,
+            "points": 43,
+            "hits": 31,
+            "exact": 4,
+            "ppg": 0.86,
+            "hitRate": 0.62
+          },
+          {
+            "continent": "South America",
+            "games": 21,
+            "points": 11,
+            "hits": 8,
+            "exact": 1,
+            "ppg": 0.52,
+            "hitRate": 0.381
+          },
+          {
+            "continent": "Africa",
+            "games": 35,
+            "points": 31,
+            "hits": 21,
+            "exact": 3,
+            "ppg": 0.89,
+            "hitRate": 0.6
+          },
+          {
+            "continent": "Asia",
+            "games": 25,
+            "points": 19,
+            "hits": 14,
+            "exact": 2,
+            "ppg": 0.76,
+            "hitRate": 0.56
+          },
+          {
+            "continent": "North America",
+            "games": 20,
+            "points": 21,
+            "hits": 16,
+            "exact": 2,
+            "ppg": 1.05,
+            "hitRate": 0.8
+          },
+          {
+            "continent": "Oceania",
+            "games": 6,
+            "points": 3,
+            "hits": 3,
+            "exact": 0,
+            "ppg": 0.5,
+            "hitRate": 0.5
+          }
+        ],
+        "best": {
+          "continent": "North America",
+          "games": 20,
+          "points": 21,
+          "hits": 16,
+          "exact": 2,
+          "ppg": 1.05,
+          "hitRate": 0.8
+        },
+        "worst": {
+          "continent": "Oceania",
+          "games": 6,
+          "points": 3,
+          "hits": 3,
+          "exact": 0,
+          "ppg": 0.5,
+          "hitRate": 0.5
         }
       },
       {
@@ -20383,15 +20383,6 @@
         "hitRate": 0.568
       },
       {
-        "name": "עמיחי רוזנצוויג",
-        "isMe": false,
-        "contrarianShare": 0.704,
-        "contrarianHits": 32,
-        "contrarianPicks": 57,
-        "points": 66,
-        "hitRate": 0.593
-      },
-      {
         "name": "Yair Sandberg",
         "isMe": false,
         "contrarianShare": 0.852,
@@ -20399,6 +20390,15 @@
         "contrarianPicks": 69,
         "points": 65,
         "hitRate": 0.556
+      },
+      {
+        "name": "עמיחי רוזנצוויג",
+        "isMe": false,
+        "contrarianShare": 0.704,
+        "contrarianHits": 32,
+        "contrarianPicks": 57,
+        "points": 66,
+        "hitRate": 0.593
       },
       {
         "name": "Bino Bepita",
@@ -20577,16 +20577,6 @@
         "exact": 7
       },
       {
-        "name": "עמיחי רוזנצוויג",
-        "isMe": false,
-        "avgGoals": 2.9,
-        "boldShare": 0.593,
-        "drawShare": 0.198,
-        "points": 66,
-        "hitRate": 0.593,
-        "exact": 6
-      },
-      {
         "name": "Yair Sandberg",
         "isMe": false,
         "avgGoals": 3.25,
@@ -20595,6 +20585,16 @@
         "points": 65,
         "hitRate": 0.556,
         "exact": 7
+      },
+      {
+        "name": "עמיחי רוזנצוויג",
+        "isMe": false,
+        "avgGoals": 2.9,
+        "boldShare": 0.593,
+        "drawShare": 0.198,
+        "points": 66,
+        "hitRate": 0.593,
+        "exact": 6
       },
       {
         "name": "Bino Bepita",
@@ -20857,15 +20857,15 @@
             "outcome": 2
           },
           {
-            "name": "עמיחי רוזנצוויג",
-            "pa": 2,
-            "pb": 0,
-            "outcome": 2
-          },
-          {
             "name": "Yair Sandberg",
             "pa": 3,
             "pb": 1,
+            "outcome": 2
+          },
+          {
+            "name": "עמיחי רוזנצוויג",
+            "pa": 2,
+            "pb": 0,
             "outcome": 2
           },
           {
@@ -21488,15 +21488,15 @@
             "outcome": 2
           },
           {
-            "name": "עמיחי רוזנצוויג",
-            "pa": 0,
-            "pb": 4,
-            "outcome": 2
-          },
-          {
             "name": "Yair Sandberg",
             "pa": 1,
             "pb": 3,
+            "outcome": 2
+          },
+          {
+            "name": "עמיחי רוזנצוויג",
+            "pa": 0,
+            "pb": 4,
             "outcome": 2
           },
           {
@@ -21605,17 +21605,17 @@
         "sel": "0-1",
         "date": "2026-06-14"
       },
-      "עמיחי רוזנצוויג": {
-        "rate": 0.1,
-        "match": "בלגיה 1–1 מצרים",
-        "sel": "1-1",
-        "date": "2026-06-15"
-      },
       "Yair Sandberg": {
         "rate": 0.05,
         "match": "נורווגיה 1–4 צרפת",
         "sel": "1-4",
         "date": "2026-06-26"
+      },
+      "עמיחי רוזנצוויג": {
+        "rate": 0.1,
+        "match": "בלגיה 1–1 מצרים",
+        "sel": "1-1",
+        "date": "2026-06-15"
       },
       "Bino Bepita": {
         "rate": 0.15,
@@ -21730,8 +21730,8 @@
           "Avi Lowenstein",
           "נועם זילברברג",
           "Shay Zamler",
-          "עמיחי רוזנצוויג",
           "Yair Sandberg",
+          "עמיחי רוזנצוויג",
           "Shai Silverberg",
           "אבי גבאי"
         ]
@@ -21790,8 +21790,8 @@
         "נועם זילברברג",
         "Shay Zamler",
         "Tomer Yekutiel",
-        "עמיחי רוזנצוויג",
         "Yair Sandberg",
+        "עמיחי רוזנצוויג",
         "Bino Bepita",
         "oded wertheim",
         "Shai Silverberg",
@@ -21813,8 +21813,8 @@
           23,
           26,
           27,
-          17,
           11,
+          17,
           25,
           21,
           22,
@@ -21835,8 +21835,8 @@
           23,
           22,
           28,
-          21,
           10,
+          21,
           31,
           33,
           17,
@@ -21879,8 +21879,8 @@
           23,
           26,
           19,
-          12,
           10,
+          12,
           27,
           23,
           12,
@@ -21901,8 +21901,8 @@
           16,
           16,
           22,
-          12,
           11,
+          12,
           17,
           19,
           10,
@@ -21923,8 +21923,8 @@
           16,
           21,
           17,
-          25,
           9,
+          25,
           22,
           17,
           17,
@@ -21945,8 +21945,8 @@
           20,
           27,
           23,
-          17,
           19,
+          17,
           21,
           31,
           14,
@@ -21967,8 +21967,8 @@
           17,
           28,
           26,
-          15,
           20,
+          15,
           21,
           16,
           15,
@@ -21989,8 +21989,8 @@
           20,
           35,
           30,
-          22,
           20,
+          22,
           20,
           31,
           19,
@@ -22011,8 +22011,8 @@
           100,
           21,
           16,
-          10,
           11,
+          10,
           19,
           22,
           15,
@@ -22033,8 +22033,8 @@
           21,
           100,
           28,
-          16,
           14,
+          16,
           27,
           26,
           16,
@@ -22055,14 +22055,36 @@
           16,
           28,
           100,
-          19,
           22,
+          19,
           26,
           28,
           16,
           14,
           19,
           2
+        ],
+        [
+          11,
+          10,
+          15,
+          10,
+          11,
+          9,
+          19,
+          20,
+          20,
+          11,
+          14,
+          22,
+          100,
+          14,
+          6,
+          10,
+          7,
+          9,
+          12,
+          9
         ],
         [
           17,
@@ -22077,36 +22099,14 @@
           10,
           16,
           19,
-          100,
           14,
+          100,
           16,
           16,
           14,
           15,
           15,
           6
-        ],
-        [
-          11,
-          10,
-          15,
-          10,
-          11,
-          9,
-          19,
-          20,
-          20,
-          11,
-          14,
-          22,
-          14,
-          100,
-          6,
-          10,
-          7,
-          9,
-          12,
-          9
         ],
         [
           25,
@@ -22121,8 +22121,8 @@
           19,
           27,
           26,
-          16,
           6,
+          16,
           100,
           32,
           12,
@@ -22143,8 +22143,8 @@
           22,
           26,
           28,
-          16,
           10,
+          16,
           32,
           100,
           12,
@@ -22165,8 +22165,8 @@
           15,
           16,
           16,
-          14,
           7,
+          14,
           12,
           12,
           100,
@@ -22187,8 +22187,8 @@
           14,
           17,
           14,
-          15,
           9,
+          15,
           25,
           15,
           10,
@@ -22209,8 +22209,8 @@
           19,
           16,
           19,
-          15,
           12,
+          15,
           23,
           27,
           7,
@@ -22231,8 +22231,8 @@
           20,
           1,
           2,
-          6,
           9,
+          6,
           17,
           10,
           2,
@@ -22247,7 +22247,7 @@
         "name": "Eldad Yitzhak",
         "userID": 116552,
         "rank": 1,
-        "totalScore": 90,
+        "totalScore": 92,
         "winner": "צרפת",
         "topScorer": "הארי קיין",
         "played": 81,
@@ -22294,7 +22294,7 @@
         "name": "Idan Nissel",
         "userID": 25782,
         "rank": 2,
-        "totalScore": 84,
+        "totalScore": 86,
         "winner": "אנגליה",
         "topScorer": "עוסמאן דמבלה",
         "played": 81,
@@ -22341,7 +22341,7 @@
         "name": "Ophir R",
         "userID": 27409,
         "rank": 3,
-        "totalScore": 74,
+        "totalScore": 76,
         "winner": "צרפת",
         "topScorer": "קיליאן אמבפה",
         "played": 81,
@@ -22388,7 +22388,7 @@
         "name": "Ido Richer",
         "userID": 151842,
         "rank": 4,
-        "totalScore": 73,
+        "totalScore": 75,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
         "played": 81,
@@ -22435,7 +22435,7 @@
         "name": "Moran Weigler",
         "userID": 109432,
         "rank": 5,
-        "totalScore": 73,
+        "totalScore": 75,
         "winner": "צרפת",
         "topScorer": "הארי קיין",
         "played": 81,
@@ -22482,7 +22482,7 @@
         "name": "Ran Artzi",
         "userID": 166560,
         "rank": 6,
-        "totalScore": 72,
+        "totalScore": 74,
         "winner": "צרפת",
         "topScorer": "קיליאן אמבפה",
         "played": 81,
@@ -22529,7 +22529,7 @@
         "name": "Liad Scharf",
         "userID": 144951,
         "rank": 7,
-        "totalScore": 70,
+        "totalScore": 72,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
         "played": 81,
@@ -22576,7 +22576,7 @@
         "name": "Ishay Mamluk",
         "userID": 166486,
         "rank": 8,
-        "totalScore": 69,
+        "totalScore": 71,
         "winner": "ארגנטינה",
         "topScorer": "מיקל אויארסבאל",
         "played": 81,
@@ -22623,7 +22623,7 @@
         "name": "Avi Lowenstein",
         "userID": 80787,
         "rank": 9,
-        "totalScore": 69,
+        "totalScore": 71,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
         "played": 81,
@@ -22670,7 +22670,7 @@
         "name": "נועם זילברברג",
         "userID": 126577,
         "rank": 10,
-        "totalScore": 68,
+        "totalScore": 70,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
         "played": 81,
@@ -22717,7 +22717,7 @@
         "name": "Shay Zamler",
         "userID": 143877,
         "rank": 11,
-        "totalScore": 67,
+        "totalScore": 69,
         "winner": "ספרד",
         "topScorer": "קיליאן אמבפה",
         "played": 81,
@@ -22764,7 +22764,7 @@
         "name": "Tomer Yekutiel",
         "userID": 80749,
         "rank": 12,
-        "totalScore": 66,
+        "totalScore": 68,
         "winner": "ספרד",
         "topScorer": "למין יאמאל",
         "played": 81,
@@ -22808,9 +22808,56 @@
         }
       },
       {
+        "name": "Yair Sandberg",
+        "userID": 48002,
+        "rank": 13,
+        "totalScore": 67,
+        "winner": "צרפת",
+        "topScorer": "קיליאן אמבפה",
+        "played": 81,
+        "exact": 7,
+        "partial": 38,
+        "miss": 36,
+        "points": 65,
+        "hitRate": 0.556,
+        "exactRate": 0.086,
+        "sharpness": 0.156,
+        "bestDay": {
+          "date": "2026-06-27",
+          "points": 7
+        },
+        "bestRegion": {
+          "continent": "Africa",
+          "games": 35,
+          "points": 33,
+          "hits": 22,
+          "exact": 4,
+          "ppg": 0.94,
+          "hitRate": 0.629
+        },
+        "worstRegion": {
+          "continent": "Asia",
+          "games": 25,
+          "points": 15,
+          "hits": 12,
+          "exact": 1,
+          "ppg": 0.6,
+          "hitRate": 0.48
+        },
+        "avgGoals": 3.25,
+        "boldShare": 0.556,
+        "contrarianShare": 0.852,
+        "signature": {
+          "rate": 0.05,
+          "match": "נורווגיה 1–4 צרפת",
+          "sel": "1-4",
+          "date": "2026-06-26"
+        }
+      },
+      {
         "name": "עמיחי רוזנצוויג",
         "userID": 25297,
-        "rank": 13,
+        "rank": 14,
         "totalScore": 66,
         "winner": "ברזיל",
         "topScorer": "קיליאן אמבפה",
@@ -22855,57 +22902,10 @@
         }
       },
       {
-        "name": "Yair Sandberg",
-        "userID": 48002,
-        "rank": 14,
-        "totalScore": 65,
-        "winner": "צרפת",
-        "topScorer": "קיליאן אמבפה",
-        "played": 81,
-        "exact": 7,
-        "partial": 38,
-        "miss": 36,
-        "points": 65,
-        "hitRate": 0.556,
-        "exactRate": 0.086,
-        "sharpness": 0.156,
-        "bestDay": {
-          "date": "2026-06-27",
-          "points": 7
-        },
-        "bestRegion": {
-          "continent": "Africa",
-          "games": 35,
-          "points": 33,
-          "hits": 22,
-          "exact": 4,
-          "ppg": 0.94,
-          "hitRate": 0.629
-        },
-        "worstRegion": {
-          "continent": "Asia",
-          "games": 25,
-          "points": 15,
-          "hits": 12,
-          "exact": 1,
-          "ppg": 0.6,
-          "hitRate": 0.48
-        },
-        "avgGoals": 3.25,
-        "boldShare": 0.556,
-        "contrarianShare": 0.852,
-        "signature": {
-          "rate": 0.05,
-          "match": "נורווגיה 1–4 צרפת",
-          "sel": "1-4",
-          "date": "2026-06-26"
-        }
-      },
-      {
         "name": "Bino Bepita",
         "userID": 157267,
         "rank": 15,
-        "totalScore": 63,
+        "totalScore": 65,
         "winner": "ספרד",
         "topScorer": "עוסמאן דמבלה",
         "played": 81,
@@ -22952,7 +22952,7 @@
         "name": "oded wertheim",
         "userID": 166115,
         "rank": 16,
-        "totalScore": 60,
+        "totalScore": 62,
         "winner": "אנגליה",
         "topScorer": "הארי קיין",
         "played": 81,
@@ -22999,7 +22999,7 @@
         "name": "Shai Silverberg",
         "userID": 87788,
         "rank": 17,
-        "totalScore": 60,
+        "totalScore": 62,
         "winner": "גרמניה",
         "topScorer": "קיליאן אמבפה",
         "played": 81,
@@ -23046,7 +23046,7 @@
         "name": "Gilad Brand",
         "userID": 124843,
         "rank": 18,
-        "totalScore": 53,
+        "totalScore": 58,
         "winner": "ספרד",
         "topScorer": "עוסמאן דמבלה",
         "played": 81,
@@ -23140,7 +23140,7 @@
         "name": "הקוף",
         "userID": 1,
         "rank": 20,
-        "totalScore": 50,
+        "totalScore": 52,
         "winner": "הולנד",
         "topScorer": "קאי האברץ",
         "played": 81,
