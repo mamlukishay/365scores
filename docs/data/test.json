@@ -7,7 +7,7 @@
       "invitationLink": "https://short.365scores.com/TYvJzx",
       "userRank": 15
     },
-    "pulledAt": "2026-07-15T21:38:39.953Z",
+    "pulledAt": "2026-07-18T21:34:31.486Z",
     "finishedCount": 102,
     "totalGames": 104,
     "continents": [
@@ -32,7 +32,7 @@
         "userID": 25782,
         "name": "Idan Nissel",
         "rank": 2,
-        "totalScore": 132,
+        "totalScore": 142,
         "winner": "אנגליה",
         "topScorer": "עוסמאן דמבלה",
         "isMe": false
@@ -113,7 +113,7 @@
         "userID": 87788,
         "name": "Shai Silverberg",
         "rank": 11,
-        "totalScore": 110,
+        "totalScore": 115,
         "winner": "גרמניה",
         "topScorer": "קיליאן אמבפה",
         "isMe": false
@@ -27405,7 +27405,7 @@
         "name": "Idan Nissel",
         "userID": 25782,
         "rank": 2,
-        "totalScore": 132,
+        "totalScore": 142,
         "winner": "אנגליה",
         "topScorer": "עוסמאן דמבלה",
         "played": 102,
@@ -27828,7 +27828,7 @@
         "name": "Shai Silverberg",
         "userID": 87788,
         "rank": 11,
-        "totalScore": 110,
+        "totalScore": 115,
         "winner": "גרמניה",
         "topScorer": "קיליאן אמבפה",
         "played": 102,
